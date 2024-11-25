@@ -1,0 +1,30 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.vis-network {
+    height: 100vh !important;
+    width: 100% !important;
+}
+
+#htmlwidget_container {
+    height: 100vh !important;
+}
+
+/* 可以添加更多自定义样式 */
+.vis-legend {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .vis-legend {
+        font-size: 12px;
+    }
+}
