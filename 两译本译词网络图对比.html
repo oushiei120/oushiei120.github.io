@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oushiei120 的 GitHub Pages</title>
+    <!-- 保留基本的 iframe 样式 -->
     <style>
         iframe {
             width: 100%;
-            height: 500px;
-            border: 1px solid #ccc;
+            height: 600px;
             margin-bottom: 20px;
         }
     </style>
+    <script>
+        window.onload = function() {
+            const iframes = document.querySelectorAll('iframe');
+            iframes.forEach(iframe => {
+                // 只添加边框效果
+                iframe.style.border = '2px solid #333';
+            });
+        };
+    </script>
 </head>
 <body>
     <h1>《红楼梦》日译本笑态翻译研究：基于语料库与文眼分析法</h1>
     <h2>伊藤漱平译本</h2>
-
     <ul>
         <li><a href="network_plot_伊藤.html" target="_blank">点击看大图</a></li>
     </ul>
     <iframe src="network_plot_伊藤.html" title="伊藤"></iframe>
+    
     <h2>井波陵一译本</h2>
-
     <ul>
         <li><a href="network_plot_井波.html" target="_blank">点击看大图</a></li>
     </ul>
     <iframe src="network_plot_井波.html" title="井波"></iframe>
-
-
 </body>
 </html>

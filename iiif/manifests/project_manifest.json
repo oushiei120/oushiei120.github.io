@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://oushiei120.github.io/iiif/manifests/project_manifest.json",
+  "label": "My IIIF Project",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/image1",
+          "label": "Image 1",
+          "height": 1000,
+          "width": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/image1.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 1000,
+                "width": 1000
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/image1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
