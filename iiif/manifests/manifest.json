@@ -19,7 +19,7 @@
               "motivation": "sc:painting",
               "@id": "https://oushiei120.github.io/iiif/annotation/p1",
               "resource": {
-                "@id": "https://oushiei120.github.io/images/第 1 页.png",
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%201%20%E9%A1%B5.png",
                 "@type": "dctypes:Image",
                 "format": "image/png",
                 "height": 2481,
@@ -41,7 +41,7 @@
               "motivation": "sc:painting",
               "@id": "https://oushiei120.github.io/iiif/annotation/p2",
               "resource": {
-                "@id": "https://oushiei120.github.io/images/第 2 页.png",
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%202%20%E9%A1%B5.png",
                 "@type": "dctypes:Image",
                 "format": "image/png",
                 "height": 2481,
@@ -63,7 +63,7 @@
               "motivation": "sc:painting",
               "@id": "https://oushiei120.github.io/iiif/annotation/p3",
               "resource": {
-                "@id": "https://oushiei120.github.io/images/第 3 页.png",
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%203%20%E9%A1%B5.png",
                 "@type": "dctypes:Image",
                 "format": "image/png",
                 "height": 2481,
