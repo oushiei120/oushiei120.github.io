@@ -1,0 +1,2857 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:AnnotationList",
+  "@id": "https://oushiei120.github.io/iiif/annotations/page1/list.json",
+  "resources": [
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/46dc4902-f2a3-49f7-9f76-b8e36a1f79b3",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "二",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7294263677974033"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2242,1414,35,31"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/136837bb-3cf2-43fa-a11a-2168a6c6cdf1",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "三",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7765620008238361"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=75,1413,32,32"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/29c0294b-6225-45e3-915c-bb2a211fbd5c",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "大木 康",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7583952344800168"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=840,1291,44,188"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/3c3883ab-24bc-418d-be67-f80427c0b8b7",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "*",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7393765252752181"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1551,980,26,28"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ab4c56de-8e58-475c-9a63-2b7cf409b831",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "伊藤漱不先生を偲んで",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8579462461500821"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=913,934,40,337"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ca2d740f-9b21-4b5e-9dc6-edba60e6928a",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "そんな幸輔が、一九七六年の秋、突如としてこわされた。伊藤教",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8241412075212209"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1946,891,32,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/177528f0-dede-47aa-a24d-b489a992b88f",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "伊藤教授のもとでの大島正二氏ともどもの助教授ぐらしは、幸福",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.848079328449748"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2162,890,33,654"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/16e86711-396b-4681-a9f2-58e7bd81d6c8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "東大に去られてほどなく、伊藤教授から赤門前の老舗の銘菓が送",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8026885873970495"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1729,890,33,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/69e4867c-1532-4751-a1de-bd12e0aceb9c",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "そのころになって、北大助手時代の「激平さん」のことをあらた",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8151221451549807"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1511,890,31,651"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/4059ec20-a6d8-43d5-85ab-f03c79812f55",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "元東方學會常務理事·東京支部長、伊藤瀬平先生は、二〇〇九年",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8094888962077305"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=771,888,31,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/5ac28db7-9c58-445c-acf0-7442bc864777",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "蓄制刈谷中學の時代から、サッカー部(ア式蹴球部)に所属さ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8137980671175044"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=195,890,30,651"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6174fc14-6536-45c8-be91-8dd219452c68",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "筆者は、一九七八年秋、はじめて伊藤先生の講楚の末席を汚して",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7862213977596432"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=593,887,30,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/25cc0e15-1371-4af5-8c59-2396e625580b",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "伊藤激平先生は、大正十四年(一九二五) に現在の愛知縣碧南市",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.793667165981772"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=446,887,31,654"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/68a254bd-02e3-45ac-b811-7a991099f71e",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "の一語に書きた。教室の運営をめぐる高機は、伊藤教授が定期的に",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8391688720402071"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2127,870,28,670"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0cb460f6-99de-40b7-8444-1b98b8863eca",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "主宰する教室會議に諮られたが、實務のすべては伊藤教授と、一昨",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7921095781789753"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2089,867,31,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/629787e5-53e1-4bcc-9e74-ef004aeb1dd9",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ひろげ電算機で闘書費の計算に汗だくのおふたりを見かけることが",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8369163298303403"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2018,869,30,672"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/a1e48a7c-bb00-4771-8a8f-8e6611d59ca3",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "れからの私は、荒れた。教授に楯突き、あげくは酔った勢いでお宅",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8236762733582189"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1873,869,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2173a26f-f289-4557-9e30-30921e9dc074",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "に電話し、「なんで東大なんかに行くんですか」と、悪態をついた",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8262299928317468"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1836,867,32,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2b72696c-61fd-4f9f-b354-7487394932a7",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "りもした。でも結局は、七七年四月、またもや札幌摩にてお見送り",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8236855023823265"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1801,869,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/36ef47e1-ea53-4491-84cf-590a26436c26",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ゴキゲンをなおし、澁谷のハチ公で伊藤教授とデートし、鯨料理を",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8014262713662405"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1655,867,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/bfd328d0-ef38-46b2-9aa6-5c5abdd10cc3",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "さかゲテもの好きだった。)",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8150145748538028"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1585,869,32,273"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/5c74478f-8840-4c7b-a4c2-a74b35c2622f",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "めて思いだすようになった。コピー機などない時代のこととて、飯",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8267506091825424"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1475,869,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2689334e-bcc7-4349-bd4e-7a084b1eea83",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "かに「激平さん」の手になるものである。「和習」を嫌った「漱不",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8070354724624691"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1403,867,32,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c56f84a5-8e72-4070-97fe-b02114915251",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "かったが、自分が助手になってからのこと––",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7940029250573268"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1330,867,32,470"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/fe9af040-f47d-4afd-9092-50147488e80e",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "にお生まれになった。お名前は、夏目漱石と森田草平から取られた",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8430331963258263"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=410,867,30,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0c4e9c1b-a7c2-475e-b0d3-edd2723e8eea",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "のではというのが先生ご自身による解説である(「名前負けの話",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8291004398715199"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=375,869,30,654"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c87af163-5b55-4dca-b02d-58bc26b3279d",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "は、事業を営まれるかたわら、ご自身書を嗜む文人であられたよう",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.872519561836371"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=266,867,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/dbc79631-29e1-45ff-bede-0e63b4465aae",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "カーの町として知られ、サッカーの盛んな土地であるが、昭和十年",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8461963097072397"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=120,867,31,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/1302efa5-33c3-49fc-9692-5f5410c798c7",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "もまた、退休される恩師飯塚朗先生の後任として北大にもどった。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8074595295145779"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2198,866,32,663"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/4ec501c3-d730-4ee2-a9af-51c15fedffda",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "年他界された丸尾常喜助手(常時)に委ねっぱなしだった。書類を",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7975214142749927"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2053,866,30,677"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/39c74ced-3870-428c-9b11-7c2be7ca4754",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "授があくる七七年四月、東大に韓出すると告げられたのである。そ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8414938433855377"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1911,867,28,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/cef243cd-e3a5-44da-89ff-ff12a17ddb42",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "したのである。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.810632225491504"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1765,866,36,155"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/a70be13d-bac0-45d0-8e92-83950cf867fd",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "られてきた。どうやら「仲なおり」しようということらしい。私も",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8018377055589886"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1694,867,27,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ecc21076-b692-42ef-81f4-d30f4c4ea8b5",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ごちそうになったりもした。櫻料理のこともあった。(先生、いさ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8113011579292337"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1621,867,31,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6a9f0792-4569-4413-b57f-c08076e00ed6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "塚先生の演習や講譜の教材は、ガリ版刷のものが多かった。あきら",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8140075361147222"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1440,866,30,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/144fb303-8675-4868-8e6f-a6e5cdc46002",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "さん」の筆蹟には獨特のものがあった。そのときはなんとも思わな",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8263040008209647"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1367,867,32,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/b0869bba-3546-4f22-8585-68d167b618a8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "十二月二十一日、慢性腎不全のため仙逝された。享年満八十四歳。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8189585106947538"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=734,866,34,663"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f6cca988-357b-4242-9fe9-197197cc75de",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "きた。恩師逝去の悲しみの涙をぬぐいつつ、ここに先生のご業績と",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8678971663921978"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=519,867,31,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/110ba604-7db0-4b71-9520-409b1685dae9",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "漱石の孫弟子これに在り」伊藤敵平『兒戯生涯 一讀書人の七十",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8060895531747436"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=338,866,32,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/7ded9c43-0b02-4609-9f09-5c10dc26b03a",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "年』汲古書院 一九九四所牧)。このお名前をつけられたご覚父",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7927391786508357"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=301,866,33,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/15eca7a6-096c-43ce-bea4-411ef19cfed4",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "れ、キャプテンとしても活躍されたときく。刈谷市は現在でもサッ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.836138357909086"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=158,867,32,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/73e2ba19-ce90-45bd-8809-5ce7d3eb4ed6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "よくあった。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8223264283252499"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1979,865,38,135"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ba1a89fa-0cbf-4cc5-83e7-9d4767b067e6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "伊藤先生は、中國文學のなかでも近世小説、とりわけ清代の長編小",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7901121965346446"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=701,864,31,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/fa581c3f-438e-4b67-8f6c-d1309b44970b",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "説『紅棋夢』百二十回の研究によって、いわゆる「紅學家」として",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8516244955053014"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=664,864,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/90c76b30-32b1-4dae-baba-071da34588a3",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "最も廣く知られる。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8287511719021082"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=626,863,37,199"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c4ffdc45-e69a-4516-87cc-9924fced8a93",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "以來(翌七九年四月に中國文學科進學)、先生からお教えを受けて",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8310531462695041"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=556,864,31,677"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/1831ab95-4dea-482a-a52b-2ac528c735bd",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "思い出のいくつかを記してみたい。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8285417309104701"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=481,865,36,354"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/aa20702c-d3c7-46de-b588-f00cbe513d3a",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "である。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8191617930555619"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=226,865,39,89"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/79dc74ff-a8c2-4573-aca1-42a676137d80",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "(北海道大學名響教授)",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8478258178529271"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=375,550,32,227"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/03cc6a7b-6808-44f7-9936-aa0459ad266b",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "**",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.6903292805302975"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2057,236,29,34"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/5b17550b-d0c5-4bef-a8ec-cbc64bf91db7",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "東 方 學 第百二十軒",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8029685955955547"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2246,177,32,240"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/31043366-36e8-4b6d-9a91-b91d7a0b896d",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "追憶の伊藤激平先生(中野)",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8421877894755249"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=75,176,30,266"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0838ba1f-c590-4ae6-bb12-9cc88f139fdb",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "そのあくる年の三月に卒業した私は、四月、「激不さん」の後任",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8361211542450706"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2019,149,31,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f75c790d-664f-4a68-97b4-77f2f0d5d0b1",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "かつて伊藤激不先生の旅立ちを二度お見送りした私にとって、い",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.827202791639138"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=519,151,33,648"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/b265eae8-cc9f-4e13-8d98-ce62f4fdcb9d",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ところで、遠くに去った「散平さん」は、一九五八年から六〇年",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8064198589112523"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1874,149,31,652"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e965a7e2-6a5b-4283-9a02-ac2bc80f6218",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "やがて、まことにふしぎなご縁がめぐりめぐって、激平先生は一",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8158151617754242"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1368,148,31,650"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/689482bf-9fa2-48cf-8d8a-a714b4c664d9",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "これには、私もこたえた。たかがガリ版切り、ではなかった。コ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8395239235816686"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=844,149,32,650"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9df5292c-f963-4dc0-88a3-0c17112315b8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "私はといえば、助手を九年つとめたあげく、「激平さん」が島根",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8340692847273766"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1551,148,28,653"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/fae59aa7-d8dc-4521-a4a0-a195356978ab",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "やはり飯塚先生の演習のための教材のガリ版刷を用意し、B4判",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8336046783200709"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=988,148,32,654"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9a7bbb5f-bdd6-4bce-bb27-dda2b23c0a79",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "しかし、そうではない。あのころの「激不さん」が獣々とガリ版",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.840524208782661"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=664,148,32,654"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/1489f8df-b1f9-4c8a-9c8a-d312f20cb57e",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "–––處女論文から著作集まで––」参照)などは露ほども知らぬま",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7950038958317156"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2164,132,32,672"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ddea37ad-c422-4fc3-9c33-397679adbe3d",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "た。島根に去ってわずか五年! この偉業のためにナミ子夫人もい",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8107354777503486"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1768,128,29,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/597d9f48-9746-49db-9545-1740965a628c",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ま、一九五五年四月、島根大學へ赴任する二十九歳の「激平さん」",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8421058388567031"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2129,129,28,665"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/784210eb-bddc-4505-892a-b3a4775b1bd2",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "を札幌騨にてお見送りしたのである。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8427079847551465"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2092,129,31,372"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c55f801c-f533-4614-97b6-dc5f8c44cae8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "職してしまい、一年間空いたままだった助手の席をとりあえず填め",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8114898676182998"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1946,129,31,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2269bcec-78a4-4895-9937-c59325404cf6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "る必要があってのことらしかった。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8100230710221034"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1909,127,33,353"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/8a4a8fe4-5454-42d0-8174-74f1638c2084",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "にかけての『紅棲夢』新謂の刊行(平凡祀、中國古典文學全集24·",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8166692852973938"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1838,127,30,671"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/7d04a073-42c3-4fc6-91e3-a9c32bc9ad4c",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "25·25)という、いま思ってもとんでもない偉業をなしとげられ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.79219833804098"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1801,127,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6db7e10c-d279-4efa-a0e4-998225afa873",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "かに苦労なされたかは、のちに夫人からうかがったところである",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8027214662023655"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1728,129,32,672"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/05b482c2-f26d-482c-bee9-7eadf6f7b5a4",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "が、ともあれ、はるかの「激不さん」は、もはや「激平さん」では",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8158099619878663"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1694,127,30,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/74fd5f69-ac6e-47ef-b6bb-a0b70069c597",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "なく、漱平先生であると襟を正し、こちらはまだひよっこながら稚",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7981537184186326"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1658,127,32,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/de5afc56-9c2d-45db-aa5f-906630c741fc",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "い作物をお送りするなどして、新しい段階での交試がはじまったの",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8196474360850836"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1621,127,34,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f52a8ed2-69dd-446d-b311-4fd4238aa9f0",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "に去ったのとほぼ同様の理由をもって北大を辞し、一九六五年四",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8093257039933883"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1511,129,33,670"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/d4d7e026-b934-4e42-9b1e-4f90bc83e76f",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "いだろ、と正直のところ吐のなかで思った。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8041354857663099"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=698,127,35,437"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9e61eaba-3bcb-4f9d-96c2-5b0cd609dbb6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "てみたい気もするが、さて、どうだろうか?",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8278815977555614"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=411,129,32,453"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/93662467-08f7-4133-aaf1-6da6181ea022",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "という重貴の自覚もないままに助手になった。先輩たちはとうに就",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8235389696709349"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1983,127,32,677"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/81dbfa19-cf84-4a11-8b34-ba9677770c3c",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "月、キャンベラなるオーストラリア國立大學に赴任した。六八年一",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7964045347862752"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1478,126,29,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6ee8d716-fa2a-428f-bbe4-b181d6d2166e",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "月に歸國してから三年間の浪人生活において、身のふりかたをめぐ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7747322713442278"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1441,127,31,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/22d8bf1f-41d9-49db-b871-33d118e48b4e",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "り、激平先生にどれだけご心配をかけたことか–。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8215080113277409"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1402,124,41,534"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/39eb622f-6b19-4d26-b216-1ccc05015002",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "九七〇年四月、北大に教授として着任され、あくる七一年四月、私",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8093221770670124"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1331,127,33,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/10ab1254-27a1-4ae7-828b-97834915ea42",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ちがっていたよ」。あわててあやまると、先生はつけ加えた。「激平",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7970093643392768"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=917,127,31,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/368cbd7d-2988-4067-9a0f-541a39bd30e7",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "ピーだ、ワープロだ、電子メールだ、の富節の若ものには想像もで",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7789863032489183"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=808,127,30,672"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9ce099d3-fc62-45dd-a225-7486a76033b4",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "りながら書いていくのである。一字くらいまちがったってしかたな",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8562937336497249"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=736,127,32,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/1792c844-cf0a-41a5-bc06-b73948e8d152",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "なご論著のすべてに餘すところなく見られる精緻な論證に、一直線",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8261879585212917"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=593,127,30,674"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/235d0a0e-47b3-4c4b-81ae-69c27c965420",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "につながっていたのだ。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8004326509661549"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=556,127,32,239"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/686b269b-5325-4f76-8c5c-9915488190e1",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "り着いたとき、時間の歯車を逆にまわし、「激不さん」と呼びかけ",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7900608943323049"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=446,127,31,672"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9f997fa5-9e5f-4817-816c-cc729de0747d",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "論」を公刊されるまでのゆくたて(『伊藤激不著作集』I「自破",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8078574633308053"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2201,126,27,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f9ad93b5-40c8-4b1c-a525-e78e921976f5",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "である。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8410161757575614"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=1583,125,40,88"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/726b8344-852c-487b-8825-e7b8f19d7543",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "数枚まとめておとどけした。あとで先生がいわれるには、「一字ま",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8369116879091335"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=952,126,33,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e17f5532-f802-49ec-9ef1-0306321a42a6",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "きないことかもしれない。鍵板にのせた原紙を鐵筆でガリガリと削",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.7656687643484308"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=771,126,31,675"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/204ef9f2-593d-4899-b2d1-7e99f213cf7a",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "を切り、一字たりともゆるがせにしなかった姿勢は、その後の膨大",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8476677685351242"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=628,126,32,676"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/42f95e12-6167-495c-abcf-15800977e80b",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "まや幽明その界を距てた實感はほとんどない。やがて彼の岸にたど",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8190410358758716"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=483,126,31,673"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/796085f3-b5ea-49c2-a6fc-aded821015f0",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "君は、一字もまちがえたことがなかった」。",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "vertical"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8118428927008691"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=879,124,33,430"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ee61cd83-0d7d-47c0-bc03-a69eb46c30f8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "212",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8128536672029697"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=2189,80,45,32"
+        }
+      }
+    },
+    {
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@type": "oa:Annotation",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f8b7b2b8-7480-416c-9f70-1a825e5ab3a8",
+      "motivation": "sc:supplementing",
+      "resource": {
+        "@type": "dctypes:Text",
+        "chars": "213",
+        "format": "text/plain",
+        "language": "ja",
+        "metadata": [
+          {
+            "label": "Direction",
+            "value": "horizontal"
+          },
+          {
+            "label": "Confidence",
+            "value": "0.8432905763000638"
+          }
+        ]
+      },
+      "on": {
+        "@type": "oa:SpecificResource",
+        "full": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "@type": "oa:FragmentSelector",
+          "value": "xywh=119,78,45,33"
+        }
+      }
+    }
+  ]
+}
