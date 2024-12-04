@@ -28,8 +28,31 @@
         var mirador = Mirador.viewer({
             id: "viewer",
             windows: [{
-                manifestId: 'https://oushiei120.github.io/iiif/manifests/manifest.json'
+                manifestId: 'https://oushiei120.github.io/iiif/manifests/manifest.json',
+                allowClose: true,
+                allowFullscreen: true,
+                allowMaximize: true,
+                defaultView: 'single',
             }],
+            window: {
+                allowClose: true,
+                allowFullscreen: true,
+                allowMaximize: true,
+                sideBarOpen: true,
+                defaultSideBarPanel: 'info',
+                views: [
+                    { key: 'single' },
+                    { key: 'book' },
+                    { key: 'gallery' }
+                ],
+            },
+            workspace: {
+                type: 'mosaic',
+                showZoomControls: true,
+            },
+            workspaceControlPanel: {
+                enabled: true,
+            },
             theme: {
                 palette: {
                     primary: {
