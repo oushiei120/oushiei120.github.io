@@ -12,6 +12,18 @@ def create_iiif_image(input_path, output_dir):
     filename = os.path.splitext(os.path.basename(input_path))[0]
     safe_filename = quote(filename)
     
+    # Get image dimensions using vips
+    header_info = subprocess.check_output(['vipsheader', '-a', input_path]).decode()
+    width = height = 0
+    for line in header_info.split('\n'):
+        if 'width:' in line:
+            width = int(line.split(':')[1].strip())
+        elif 'height:' in line:
+            height = int(line.split(':')[1].strip())
+    
+    if width == 0 or height == 0:
+        raise ValueError(f"Could not determine dimensions for {input_path}")
+    
     # Create the IIIF directory for this image
     image_dir = os.path.join(output_dir, safe_filename)
     os.makedirs(image_dir, exist_ok=True)
@@ -28,9 +40,9 @@ def create_iiif_image(input_path, output_dir):
         '--depth', 'onepixel'
     ])
     
-    return safe_filename
+    return safe_filename, width, height
 
-def create_simple_manifest(image_names, output_path):
+def create_simple_manifest(image_info_list, output_path):
     """Create a basic IIIF manifest for the images"""
     manifest = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
@@ -45,14 +57,14 @@ def create_simple_manifest(image_names, output_path):
         ]
     }
     
-    for idx, image_name in enumerate(image_names):
+    for idx, (image_name, width, height) in enumerate(image_info_list):
         # Create canvas
         canvas = {
             "@type": "sc:Canvas",
             "@id": f"https://oushiei120.github.io/iiif/canvas/p{idx+1}",
             "label": f"p. {idx+1}",
-            "height": 1000,
-            "width": 1000,
+            "height": height,
+            "width": width,
             "images": [
                 {
                     "@type": "oa:Annotation",
@@ -61,6 +73,8 @@ def create_simple_manifest(image_names, output_path):
                     "resource": {
                         "@id": f"https://oushiei120.github.io/iiif/processed_images/{image_name}/full/full/0/default.jpg",
                         "@type": "dctypes:Image",
+                        "height": height,
+                        "width": width,
                         "service": {
                             "@context": "http://iiif.io/api/image/2/context.json",
                             "@id": f"https://oushiei120.github.io/iiif/processed_images/{image_name}",
@@ -94,15 +108,15 @@ def main():
     image_files = [f for f in target_files if f in os.listdir(images_dir)]
     
     # Process images
-    image_names = []
+    image_info_list = []
     for image_file in image_files:
         input_path = os.path.join(images_dir, image_file)
-        image_name = create_iiif_image(input_path, iiif_dir)
-        image_names.append(image_name)
+        image_name, width, height = create_iiif_image(input_path, iiif_dir)
+        image_info_list.append((image_name, width, height))
     
     # Create manifest
     manifest_path = os.path.join(manifest_dir, 'manifest.json')
-    create_simple_manifest(image_names, manifest_path)
+    create_simple_manifest(image_info_list, manifest_path)
 
 if __name__ == '__main__':
     main()

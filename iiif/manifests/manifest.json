@@ -11,8 +11,8 @@
           "@type": "sc:Canvas",
           "@id": "https://oushiei120.github.io/iiif/canvas/p1",
           "label": "p. 1",
-          "height": 1000,
-          "width": 1000,
+          "height": 2481,
+          "width": 3510,
           "images": [
             {
               "@type": "oa:Annotation",
@@ -21,6 +21,8 @@
               "resource": {
                 "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%201%20%E9%A1%B5/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
+                "height": 2481,
+                "width": 3510,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%201%20%E9%A1%B5",
@@ -35,8 +37,8 @@
           "@type": "sc:Canvas",
           "@id": "https://oushiei120.github.io/iiif/canvas/p2",
           "label": "p. 2",
-          "height": 1000,
-          "width": 1000,
+          "height": 2481,
+          "width": 3510,
           "images": [
             {
               "@type": "oa:Annotation",
@@ -45,6 +47,8 @@
               "resource": {
                 "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%202%20%E9%A1%B5/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
+                "height": 2481,
+                "width": 3510,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%202%20%E9%A1%B5",
@@ -59,8 +63,8 @@
           "@type": "sc:Canvas",
           "@id": "https://oushiei120.github.io/iiif/canvas/p3",
           "label": "p. 3",
-          "height": 1000,
-          "width": 1000,
+          "height": 2481,
+          "width": 3510,
           "images": [
             {
               "@type": "oa:Annotation",
@@ -69,6 +73,8 @@
               "resource": {
                 "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%203%20%E9%A1%B5/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
+                "height": 2481,
+                "width": 3510,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%203%20%E9%A1%B5",
