@@ -1,76 +1,79 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@type": "sc:Manifest",
-    "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
-    "label": "Image Collection with Annotations",
-    "sequences": [
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
+  "label": "Image Collection",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
         {
-            "@type": "sc:Sequence",
-            "canvases": [
-                {
-                    "@type": "sc:Canvas",
-                    "@id": "https://oushiei120.github.io/iiif/canvas/p1",
-                    "label": "p. 1",
-                    "height": 2481,
-                    "width": 3510,
-                    "images": [
-                        {
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "resource": {
-                                "@id": "https://oushiei120.github.io/images/page1.png",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg",
-                                "height": 2481,
-                                "width": 3510
-                            },
-                            "on": "https://oushiei120.github.io/iiif/canvas/p1"
-                        }
-                    ]
-                },
-                {
-                    "@type": "sc:Canvas",
-                    "@id": "https://oushiei120.github.io/iiif/canvas/p2",
-                    "label": "p. 2",
-                    "height": 2481,
-                    "width": 3510,
-                    "images": [
-                        {
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "resource": {
-                                "@id": "https://oushiei120.github.io/images/page2.png",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg",
-                                "height": 2481,
-                                "width": 3510
-                            },
-                            "on": "https://oushiei120.github.io/iiif/canvas/p2"
-                        }
-                    ]
-                },
-                {
-                    "@type": "sc:Canvas",
-                    "@id": "https://oushiei120.github.io/iiif/canvas/p3",
-                    "label": "p. 3",
-                    "height": 2481,
-                    "width": 3510,
-                    "images": [
-                        {
-                            "@type": "oa:Annotation",
-                            "motivation": "sc:painting",
-                            "resource": {
-                                "@id": "https://oushiei120.github.io/images/page3.png",
-                                "@type": "dctypes:Image",
-                                "format": "image/jpeg",
-                                "height": 2481,
-                                "width": 3510
-                            },
-                            "on": "https://oushiei120.github.io/iiif/canvas/p3"
-                        }
-                    ]
-                }
-            ]
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p1",
+          "label": "p. 1",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p1",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/page1.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p2",
+          "label": "p. 2",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p2",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/page2.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p2"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p3",
+          "label": "p. 3",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p3",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/page3.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3"
+            }
+          ]
         }
-    ]
+      ]
+    }
+  ]
 }

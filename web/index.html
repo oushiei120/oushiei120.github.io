@@ -3,82 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIIF Mirador Viewer with Text</title>
+    <title>IIIF Mirador Viewer</title>
     
     <!-- Mirador -->
     <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
     <script src="https://unpkg.com/mirador@3.3.0/dist/mirador.min.js"></script>
     
     <style>
-        body {
+        #viewer {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
             margin: 0;
             padding: 0;
-            overflow: hidden;
-        }
-        .container {
-            display: flex;
-            height: 100vh;
-        }
-        #viewer {
-            flex: 2;
-            height: 100%;
-        }
-        #text-panel {
-            flex: 1;
-            height: 100vh;
-            overflow-y: auto;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-left: 1px solid #dee2e6;
-            box-sizing: border-box;
-        }
-        .text-item {
-            margin-bottom: 15px;
-            padding: 15px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            transition: all 0.3s ease;
-        }
-        .text-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            cursor: pointer;
-        }
-        .text-role {
-            font-size: 0.8em;
-            color: #6c757d;
-            margin-bottom: 5px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .text-content {
-            font-size: 1em;
-            color: #212529;
-            margin: 8px 0;
-            line-height: 1.5;
-        }
-        .text-direction {
-            font-size: 0.8em;
-            color: #868e96;
-            margin-top: 5px;
-        }
-        .text-box {
-            font-family: monospace;
-            font-size: 0.8em;
-            color: #495057;
-            margin-top: 5px;
-            padding: 5px;
-            background-color: #f1f3f5;
-            border-radius: 4px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div id="viewer"></div>
-        <div id="text-panel"></div>
-    </div>
+    <div id="viewer"></div>
 
     <script type="text/javascript">
         var mirador = Mirador.viewer({
@@ -86,13 +30,6 @@
             windows: [{
                 manifestId: 'https://oushiei120.github.io/iiif/manifests/manifest.json'
             }],
-            window: {
-                allowFullscreen: true,
-                sideBarOpenByDefault: false
-            },
-            workspace: {
-                showZoomControls: true
-            },
             theme: {
                 palette: {
                     primary: {
@@ -101,58 +38,6 @@
                 }
             }
         });
-
-        // 处理文本面板
-        async function loadAnnotations() {
-            const response = await fetch('https://oushiei120.github.io/iiif/manifests/manifest.json');
-            const manifest = await response.json();
-            const textPanel = document.getElementById('text-panel');
-
-            mirador.store.subscribe(() => {
-                const state = mirador.store.getState();
-                const windows = state.windows;
-                const currentWindow = Object.values(windows)[0];
-                
-                if (currentWindow && currentWindow.canvasId) {
-                    const canvasIndex = currentWindow.canvasId.split('/').pop().replace('p', '') - 1;
-                    const canvas = manifest.sequences[0].canvases[canvasIndex];
-                    
-                    if (canvas.annotations) {
-                        textPanel.innerHTML = '';
-                        canvas.annotations.forEach(anno => {
-                            const textItem = document.createElement('div');
-                            textItem.className = 'text-item';
-                            
-                            const content = anno.resource.chars;
-                            const role = anno.resource.metadata.role;
-                            const direction = anno.resource.metadata.direction;
-                            const box = anno.resource.metadata.box;
-                            
-                            textItem.innerHTML = `
-                                <div class="text-role">${role || 'Text'}</div>
-                                <div class="text-content">${content}</div>
-                                <div class="text-direction">方向: ${direction}</div>
-                                <div class="text-box">位置: [${box.join(', ')}]</div>
-                            `;
-                            
-                            // 点击文本项时的处理
-                            textItem.onclick = () => {
-                                // 这里可以添加点击后的交互效果
-                                // 比如高亮显示对应区域
-                                console.log('Clicked text:', content, 'Box:', box);
-                            };
-                            
-                            textPanel.appendChild(textItem);
-                        });
-                    } else {
-                        textPanel.innerHTML = '<div class="text-item">该页面没有文本注释</div>';
-                    }
-                }
-            });
-        }
-
-        // 启动注释加载
-        loadAnnotations();
     </script>
 </body>
 </html>
