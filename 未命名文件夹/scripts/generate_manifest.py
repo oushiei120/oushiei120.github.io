@@ -8,25 +8,13 @@ def get_image_dimensions(image_path):
     with Image.open(image_path) as img:
         return img.size
 
-def load_text_annotations(json_dir, image_filename):
-    """加载对应图像的文本注释"""
-    # 从image_filename (例如 'page1.png') 提取基本名称 ('page1')
-    base_name = os.path.splitext(image_filename)[0]
-    json_path = os.path.join(json_dir, f"{base_name}.json")
-    
-    if os.path.exists(json_path):
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return data.get('paragraphs', [])
-    return []
-
-def generate_manifest(images_dir, json_dir):
+def generate_manifest(images_dir):
     """生成IIIF manifest"""
     manifest = {
         "@context": "http://iiif.io/api/presentation/2/context.json",
         "@type": "sc:Manifest",
         "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
-        "label": "Image Collection with Annotations",
+        "label": "Image Collection",
         "sequences": [
             {
                 "@type": "sc:Sequence",
@@ -34,23 +22,20 @@ def generate_manifest(images_dir, json_dir):
             }
         ]
     }
-    
-    # 获取并排序图像文件
-    image_files = [f for f in os.listdir(images_dir) 
-                  if f.lower().endswith(('.png', '.jpg', '.jpeg'))]
-    # 按数字顺序排序文件（page1.png, page2.png, ...）
-    image_files.sort(key=lambda x: int(''.join(filter(str.isdigit, x))))
-    
+
+    # 获取所有图像文件
+    image_files = [f for f in os.listdir(images_dir) if f.endswith(('.png', '.jpg', '.jpeg', '.PNG', '.JPG', '.JPEG'))]
+    image_files.sort()  # 按文件名排序
+
     for index, image_file in enumerate(image_files, 1):
+        # 获取图像尺寸
         image_path = os.path.join(images_dir, image_file)
         width, height = get_image_dimensions(image_path)
-        
-        # 获取文本注释
-        annotations = load_text_annotations(json_dir, image_file)
         
         # URL编码图像文件名
         encoded_filename = quote(image_file)
         
+        # 创建画布
         canvas = {
             "@type": "sc:Canvas",
             "@id": f"https://oushiei120.github.io/iiif/canvas/p{index}",
@@ -61,55 +46,41 @@ def generate_manifest(images_dir, json_dir):
                 {
                     "@type": "oa:Annotation",
                     "motivation": "sc:painting",
+                    "@id": f"https://oushiei120.github.io/iiif/annotation/p{index}",
                     "resource": {
                         "@id": f"https://oushiei120.github.io/images/{encoded_filename}",
                         "@type": "dctypes:Image",
-                        "format": "image/jpeg",
+                        "format": "image/png" if image_file.lower().endswith('.png') else "image/jpeg",
                         "height": height,
-                        "width": width,
+                        "width": width
                     },
                     "on": f"https://oushiei120.github.io/iiif/canvas/p{index}"
                 }
             ]
         }
         
-        # 添加文本注释
-        if annotations:
-            canvas["annotations"] = [{
-                "@type": "oa:Annotation",
-                "@id": f"https://oushiei120.github.io/iiif/annotation/text-{index}-{i}",
-                "motivation": "sc:commenting",
-                "resource": {
-                    "@type": "dctypes:Text",
-                    "format": "text/plain",
-                    "chars": anno["contents"],
-                    "metadata": {
-                        "box": anno["box"],
-                        "direction": anno["direction"],
-                        "role": anno["role"]
-                    }
-                },
-                "on": f"https://oushiei120.github.io/iiif/canvas/p{index}#xywh={','.join(map(str, anno['box']))}"
-            } for i, anno in enumerate(annotations)]
-        
         manifest["sequences"][0]["canvases"].append(canvas)
     
     return manifest
 
-if __name__ == "__main__":
+def main():
     # 设置路径
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     images_dir = os.path.join(base_dir, 'images')
-    json_dir = os.path.join(base_dir, 'json')
     manifest_dir = os.path.join(base_dir, 'iiif', 'manifests')
     
     # 确保manifest目录存在
     os.makedirs(manifest_dir, exist_ok=True)
     
     # 生成manifest
-    manifest = generate_manifest(images_dir, json_dir)
+    manifest = generate_manifest(images_dir)
     
     # 保存manifest文件
     manifest_path = os.path.join(manifest_dir, 'manifest.json')
     with open(manifest_path, 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, ensure_ascii=False, indent=4)
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
+    
+    print(f"Manifest已生成: {manifest_path}")
+
+if __name__ == "__main__":
+    main()

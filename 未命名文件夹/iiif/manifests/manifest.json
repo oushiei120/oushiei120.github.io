@@ -1,0 +1,1175 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
+  "label": "Image Collection with Annotations",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p1",
+          "label": "p. 1",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p1",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%201%20%E9%A1%B5.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1"
+            }
+          ],
+          "annotations": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-0",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "212",
+                "metadata": {
+                  "box": [
+                    2195,
+                    85,
+                    2230,
+                    107
+                  ],
+                  "direction": "horizontal",
+                  "role": "page_header"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=2195,85,2230,107"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-1",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "213",
+                "metadata": {
+                  "box": [
+                    124,
+                    83,
+                    159,
+                    106
+                  ],
+                  "direction": "horizontal",
+                  "role": "page_header"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=124,83,159,106"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-2",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "追憶の伊藤激平先生(中野)",
+                "metadata": {
+                  "box": [
+                    78,
+                    179,
+                    104,
+                    444
+                  ],
+                  "direction": "vertical",
+                  "role": "page_header"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=78,179,104,444"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-3",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "東 方 學 第百二十軒",
+                "metadata": {
+                  "box": [
+                    2249,
+                    180,
+                    2276,
+                    414
+                  ],
+                  "direction": "vertical",
+                  "role": "section_headings"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=2249,180,2276,414"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-4",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "論」を公刊されるまでのゆくたて(『伊藤激不著作集』I「自破\n–––處女論文から著作集まで––」参照)などは露ほども知らぬま\nま、一九五五年四月、島根大學へ赴任する二十九歳の「激平さん」\nを札幌騨にてお見送りしたのである。",
+                "metadata": {
+                  "box": [
+                    2095,
+                    129,
+                    2229,
+                    804
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=2095,129,2229,804"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-5",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "**",
+                "metadata": {
+                  "box": [
+                    2057,
+                    236,
+                    2086,
+                    270
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=2057,236,2086,270"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-6",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "そのあくる年の三月に卒業した私は、四月、「激不さん」の後任\nという重貴の自覚もないままに助手になった。先輩たちはとうに就\n職してしまい、一年間空いたままだった助手の席をとりあえず填め\nる必要があってのことらしかった。",
+                "metadata": {
+                  "box": [
+                    1913,
+                    129,
+                    2048,
+                    804
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1913,129,2048,804"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-7",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "ところで、遠くに去った「散平さん」は、一九五八年から六〇年\nにかけての『紅棲夢』新謂の刊行(平凡祀、中國古典文學全集24·\n25·25)という、いま思ってもとんでもない偉業をなしとげられ\nた。島根に去ってわずか五年! この偉業のためにナミ子夫人もい\nかに苦労なされたかは、のちに夫人からうかがったところである\nが、ともあれ、はるかの「激不さん」は、もはや「激平さん」では\nなく、漱平先生であると襟を正し、こちらはまだひよっこながら稚\nい作物をお送りするなどして、新しい段階での交試がはじまったの\nである。",
+                "metadata": {
+                  "box": [
+                    1591,
+                    131,
+                    1905,
+                    804
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1591,131,1905,804"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-8",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "私はといえば、助手を九年つとめたあげく、「激平さん」が島根\nに去ったのとほぼ同様の理由をもって北大を辞し、一九六五年四\n月、キャンベラなるオーストラリア國立大學に赴任した。六八年一\n月に歸國してから三年間の浪人生活において、身のふりかたをめぐ\nり、激平先生にどれだけご心配をかけたことか–。",
+                "metadata": {
+                  "box": [
+                    1406,
+                    128,
+                    1583,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1406,128,1583,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-9",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "やがて、まことにふしぎなご縁がめぐりめぐって、激平先生は一\n九七〇年四月、北大に教授として着任され、あくる七一年四月、私",
+                "metadata": {
+                  "box": [
+                    1335,
+                    128,
+                    1398,
+                    800
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1335,128,1398,800"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-10",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "やはり飯塚先生の演習のための教材のガリ版刷を用意し、B4判\n数枚まとめておとどけした。あとで先生がいわれるには、「一字ま\nちがっていたよ」。あわててあやまると、先生はつけ加えた。「激平\n君は、一字もまちがえたことがなかった」。",
+                "metadata": {
+                  "box": [
+                    882,
+                    127,
+                    1019,
+                    801
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=882,127,1019,801"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-11",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "これには、私もこたえた。たかがガリ版切り、ではなかった。コ\nピーだ、ワープロだ、電子メールだ、の富節の若ものには想像もで\nきないことかもしれない。鍵板にのせた原紙を鐵筆でガリガリと削\nりながら書いていくのである。一字くらいまちがったってしかたな\nいだろ、と正直のところ吐のなかで思った。",
+                "metadata": {
+                  "box": [
+                    702,
+                    128,
+                    874,
+                    802
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=702,128,874,802"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-12",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "しかし、そうではない。あのころの「激不さん」が獣々とガリ版\nを切り、一字たりともゆるがせにしなかった姿勢は、その後の膨大\nなご論著のすべてに餘すところなく見られる精緻な論證に、一直線\nにつながっていたのだ。",
+                "metadata": {
+                  "box": [
+                    560,
+                    130,
+                    696,
+                    802
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=560,130,696,802"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-13",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "かつて伊藤激不先生の旅立ちを二度お見送りした私にとって、い\nまや幽明その界を距てた實感はほとんどない。やがて彼の岸にたど\nり着いたとき、時間の歯車を逆にまわし、「激不さん」と呼びかけ\nてみたい気もするが、さて、どうだろうか?",
+                "metadata": {
+                  "box": [
+                    413,
+                    128,
+                    550,
+                    802
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=413,128,550,802"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-14",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "(北海道大學名響教授)",
+                "metadata": {
+                  "box": [
+                    376,
+                    554,
+                    404,
+                    776
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=376,554,404,776"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-15",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "二",
+                "metadata": {
+                  "box": [
+                    2242,
+                    1414,
+                    2277,
+                    1445
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=2242,1414,2277,1445"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-16",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "もまた、退休される恩師飯塚朗先生の後任として北大にもどった。\n伊藤教授のもとでの大島正二氏ともどもの助教授ぐらしは、幸福\nの一語に書きた。教室の運営をめぐる高機は、伊藤教授が定期的に\n主宰する教室會議に諮られたが、實務のすべては伊藤教授と、一昨\n年他界された丸尾常喜助手(常時)に委ねっぱなしだった。書類を\nひろげ電算機で闘書費の計算に汗だくのおふたりを見かけることが\nよくあった。",
+                "metadata": {
+                  "box": [
+                    1988,
+                    869,
+                    2229,
+                    1544
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1988,869,2229,1544"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-17",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "そんな幸輔が、一九七六年の秋、突如としてこわされた。伊藤教\n授があくる七七年四月、東大に韓出すると告げられたのである。そ\nれからの私は、荒れた。教授に楯突き、あげくは酔った勢いでお宅\nに電話し、「なんで東大なんかに行くんですか」と、悪態をついた\nりもした。でも結局は、七七年四月、またもや札幌摩にてお見送り\nしたのである。",
+                "metadata": {
+                  "box": [
+                    1770,
+                    870,
+                    1976,
+                    1543
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1770,870,1976,1543"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-18",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "東大に去られてほどなく、伊藤教授から赤門前の老舗の銘菓が送\nられてきた。どうやら「仲なおり」しようということらしい。私も\nゴキゲンをなおし、澁谷のハチ公で伊藤教授とデートし、鯨料理を\nごちそうになったりもした。櫻料理のこともあった。(先生、いさ\nさかゲテもの好きだった。)",
+                "metadata": {
+                  "box": [
+                    1587,
+                    871,
+                    1759,
+                    1543
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1587,871,1759,1543"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-19",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "*",
+                "metadata": {
+                  "box": [
+                    1551,
+                    980,
+                    1577,
+                    1008
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1551,980,1577,1008"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-20",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "そのころになって、北大助手時代の「激平さん」のことをあらた\nめて思いだすようになった。コピー機などない時代のこととて、飯\n塚先生の演習や講譜の教材は、ガリ版刷のものが多かった。あきら\nかに「激平さん」の手になるものである。「和習」を嫌った「漱不\nさん」の筆蹟には獨特のものがあった。そのときはなんとも思わな\nかったが、自分が助手になってからのこと––",
+                "metadata": {
+                  "box": [
+                    1334,
+                    871,
+                    1540,
+                    1542
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=1334,871,1540,1542"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-21",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "伊藤漱不先生を偲んで",
+                "metadata": {
+                  "box": [
+                    915,
+                    937,
+                    952,
+                    1271
+                  ],
+                  "direction": "vertical",
+                  "role": "section_headings"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=915,937,952,1271"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-22",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "大木 康",
+                "metadata": {
+                  "box": [
+                    844,
+                    1298,
+                    880,
+                    1474
+                  ],
+                  "direction": "vertical",
+                  "role": "section_headings"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=844,1298,880,1474"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-23",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "元東方學會常務理事·東京支部長、伊藤瀬平先生は、二〇〇九年\n十二月二十一日、慢性腎不全のため仙逝された。享年満八十四歳。\n伊藤先生は、中國文學のなかでも近世小説、とりわけ清代の長編小\n説『紅棋夢』百二十回の研究によって、いわゆる「紅學家」として\n最も廣く知られる。",
+                "metadata": {
+                  "box": [
+                    632,
+                    868,
+                    803,
+                    1542
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=632,868,803,1542"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-24",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "筆者は、一九七八年秋、はじめて伊藤先生の講楚の末席を汚して\n以來(翌七九年四月に中國文學科進學)、先生からお教えを受けて\nきた。恩師逝去の悲しみの涙をぬぐいつつ、ここに先生のご業績と\n思い出のいくつかを記してみたい。",
+                "metadata": {
+                  "box": [
+                    485,
+                    869,
+                    622,
+                    1541
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=485,869,622,1541"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-25",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "伊藤激平先生は、大正十四年(一九二五) に現在の愛知縣碧南市\nにお生まれになった。お名前は、夏目漱石と森田草平から取られた\nのではというのが先生ご自身による解説である(「名前負けの話\n漱石の孫弟子これに在り」伊藤敵平『兒戯生涯 一讀書人の七十\n年』汲古書院 一九九四所牧)。このお名前をつけられたご覚父\nは、事業を営まれるかたわら、ご自身書を嗜む文人であられたよう\nである。",
+                "metadata": {
+                  "box": [
+                    234,
+                    871,
+                    477,
+                    1543
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=234,871,477,1543"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-26",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "蓄制刈谷中學の時代から、サッカー部(ア式蹴球部)に所属さ\nれ、キャプテンとしても活躍されたときく。刈谷市は現在でもサッ\nカーの町として知られ、サッカーの盛んな土地であるが、昭和十年",
+                "metadata": {
+                  "box": [
+                    123,
+                    871,
+                    222,
+                    1540
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=123,871,222,1540"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-1-27",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "三",
+                "metadata": {
+                  "box": [
+                    75,
+                    1413,
+                    107,
+                    1445
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1#xywh=75,1413,107,1445"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p2",
+          "label": "p. 2",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p2",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%202%20%E9%A1%B5.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p2"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p3",
+          "label": "p. 3",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p3",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%203%20%E9%A1%B5.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3"
+            }
+          ],
+          "annotations": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-0",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "216",
+                "metadata": {
+                  "box": [
+                    2176,
+                    86,
+                    2210,
+                    108
+                  ],
+                  "direction": "horizontal",
+                  "role": "page_header"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=2176,86,2210,108"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-1",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "伊藤瀬平先生を偲んで(大木)",
+                "metadata": {
+                  "box": [
+                    72,
+                    176,
+                    100,
+                    464
+                  ],
+                  "direction": "vertical",
+                  "role": "page_header"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=72,176,100,464"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-2",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "東 方 學 第百二十軒",
+                "metadata": {
+                  "box": [
+                    2229,
+                    181,
+                    2258,
+                    414
+                  ],
+                  "direction": "vertical",
+                  "role": "section_headings"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=2229,181,2258,414"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-3",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "書目録など参考圖書の大部分は、現在二松學舎大學の中國文學研究\n室に藏され、日々學生たちの利用に供されている。そしてご蔵書の\nうち、『紅棲夢』と李漁、『矯紅記』に関するものは、東京大學東洋\n文化研究所に「雨紅軒文庫」としてお譲りいただいている。名前の\n由來にもなっている『紅披夢』程甲本は、日本に一つしかない本\n(吉川幸次郎教授奮蔵)、元の宋遠作の文言小説『新錬校正評釈中\n王奇溝擁濾矯紅記』は世界に一つしかないもの(林秀一教授省蔵)\nである。",
+                "metadata": {
+                  "box": [
+                    1933,
+                    130,
+                    2212,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1933,130,2212,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-4",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "東洋文化研究所に、その師である倉石教授の倉石文庫、長澤教授\nの艶紅堂文庫、そして先輩であり前任の研究室主任である前野直彬\n教授の夕嵐草堂文庫と並んで雨紅軒文庫を受け入れることができた\nことは、一つの因縁であり、光榮なことと思うとともに、これらの\n本を未來永劫まで傳えていく責任の重さを感じている。",
+                "metadata": {
+                  "box": [
+                    1749,
+                    130,
+                    1922,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1749,130,1922,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-5",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "なお、倉石文庫には、やはり日本に一點だけの『紅拙夢』程乙本\nがあり、これで研究所に『紅棲夢』最初期の印本(木活字本)であ\nる程甲本、程乙本の雨本がそろうことになった。また、懐紅堂文庫\nは、そもそも長澤教授が、戯曲『金重玉女矯紅記』『新錆節義窯業\n塚嬌紅記』の雨善本をお持ちだったことから命名されたのである\nが、現在研究所の蔓紅堂文庫には、この雨本はない(京都大學文學\n部に藏される)。そこに、小説ではあるが、稀観の『婚紅記』がや\nって来たことも、また因果の絲に導かれてのことであろう。",
+                "metadata": {
+                  "box": [
+                    1466,
+                    131,
+                    1742,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1466,131,1742,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-6",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "本の話が長くなってしまった。先生のご経歴に戻る。先生は、昭\n和二十四年(一九四九)に東京大學文學部をご卒業。卒業論文の題\n目は、「『紅披夢』覚書」であった。先生の論文の題名には、「覚書」\nの二字が付されるものが多いが、それは卒業論文からはじまってい",
+                "metadata": {
+                  "box": [
+                    1316,
+                    130,
+                    1451,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1316,130,1451,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-7",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "で、先生の『紅棲夢』研究における代表的論文の一つである「脂視\n齋と脂硯寮評本に関する畳書」が發表される。先生の論文の特徴\nは、きわめて息の長いことで、例えばこの論文は(一)から(五)\nまで、五回に分けて發表されている。後年の「程偉元刊『新郷全部\n繍像紅模夢』小考」も、最初の論文の後に、補説、除説と続き、李\n漁の小説の版本に関する論文も、補、再補など、都合六篇に至る。\nねばり強い探求のしからしむるところである。",
+                "metadata": {
+                  "box": [
+                    770,
+                    129,
+                    1014,
+                    801
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=770,129,1014,801"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-8",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "これらはいずれも版本を中心とする研究である。先生の版本研究\nは、その調査考盤の精密さはもちろんのこと、版本の系統圏を作っ\nて能事終われりとするのではなく、『紅櫻夢』についても、李漁の\n小説についても、それぞれの版本を生み出した人々の姿が浮き彫り\nにされる點に特徴がある。一つ一つの書物、一つ一つの版本には、\nそれを生み出し、それを傳えた人々の物語がある。考證のなかの文\n學。この點が、伊藤先生の論文の魅力であろう。",
+                "metadata": {
+                  "box": [
+                    517,
+                    127,
+                    760,
+                    803
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=517,127,760,803"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-9",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "一九七〇年、先生は大阪市立大學から、古巣である北海道大學に\n移り、中國文學研究室の教授となられ、ついで一九七七年、東京大\n學文學部に移られる。そこで筆者がはじめて先生と出會い、以來お\n教えを受けてきたことは、すでに述べた通りである。當時の中國文\n學科は進學する學生の數が必ずしも多くはなく、受講者が筆者一人\nといったことがたびたびあった。毎週一人で講談を招賞するのはし\nんどくもあったが、いまにして思えば何とも贅澤な話である。",
+                "metadata": {
+                  "box": [
+                    266,
+                    126,
+                    507,
+                    801
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=266,126,507,801"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-10",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "伊藤先生は一九八六年三月に東京大學をご退休。その後二松學舎\n大學に移られ、一九八九年から一九九三年まで、同大學の學長もつ\nとめられた。またこの間、一九八七年から八九年、一九九三年から\n九五年の二期にわたって日本中國學會理事長、一九九二年から一九",
+                "metadata": {
+                  "box": [
+                    117,
+                    125,
+                    255,
+                    802
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=117,125,255,802"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-11",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "六",
+                "metadata": {
+                  "box": [
+                    2225,
+                    1414,
+                    2259,
+                    1444
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=2225,1414,2259,1444"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-12",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "たのであった。大學院に進學されてまもなく、北海道大學法文學部\nに助手としてご就職。北海道大學では、最初の公刊論文である「曹\n唇と高鴨に関する試論」(『北海道大學外國語外國文學研究』第二軒\n一九五四)を發表される。一九五五年には島根大學に講師として移\nられ、ついで助教授に昇任される。島根大學では、「李漁と曹需\nその作品に表はれたる一面(上〉(下)」(『島根大學論集』六、七號\n一九五六、五七)を發表される。生涯の研究テーマであった李漁と\n『紅棋夢』が、ここに出そろっている。",
+                "metadata": {
+                  "box": [
+                    1930,
+                    873,
+                    2211,
+                    1543
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1930,873,2211,1543"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-13",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "この島根の時代、一九五八年から、最初の『紅櫻夢』翻評である\n平凡祀中國古典文學全集版の『紅棲夢』上中下三巻が刊行される。\n以後、先生は、一九六一年には同社奇書シリーズ(三卷)として、\nまた六九年には中國古典文學大系(三巻)として、さらにはご退休\n後の九七年には平凡社ライブラリー(十二卷)として、再三にわた\nりこの長編小説の翻弄を刊行され、そのたびに手を加えられてい\nる。これらの翻譚を通して『紅棋夢』の世界に入っていった請者\nは、敷え切れない数にのぼるであろう。渡邊和博とタラコプロダク\nション『金魂巻』(主婦の友杜 一九八四)のマル金(金持ち) 掃\n護士の請書の項には、「伊藤瀬不尋の『紅棋夢』を讃破しようとが\nんばっている」とある。",
+                "metadata": {
+                  "box": [
+                    1536,
+                    869,
+                    1921,
+                    1544
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1536,869,1921,1544"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-14",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "東洋文化研究所の雨紅軒文庫には、先生が手元に置いておられた\nご自身の『紅櫻夢』翻譯各本が収められている。これを見ると、ど\nの巻にも多くの書き込みが施され、例えば中國古典文學大系版に見\nえる書き込みは、ライブラリー版ではきちんとそのように直されて\nいるといった、生涯のご苦勢の後を追うことができる。",
+                "metadata": {
+                  "box": [
+                    1338,
+                    871,
+                    1523,
+                    1542
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1338,871,1523,1542"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-15",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "一九六〇年には島根から大阪市立大學の助教授に移られる。ここ",
+                "metadata": {
+                  "box": [
+                    1315,
+                    901,
+                    1341,
+                    1540
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=1315,901,1341,1540"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-16",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "九五年にかけては、東方學會常務理事·東京支部長をつとめられ、\n學會の發展に寄興しておられる。",
+                "metadata": {
+                  "box": [
+                    948,
+                    870,
+                    1014,
+                    1526
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=948,870,1014,1526"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-17",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "一九九八年には二松學舎大學からも退き、同大學名春教授となら\nれたが、この後、まずは平凡社ライブラリー版の『紅棲夢』翻弄を\n手がけられ、これを完成された。そして、これまでに書かれた論文\nをまとめた五巻からなる著作集の編纂に着手され、二〇〇八年秋に\nはそのうちの三巻「紅櫻夢編」上中下が完結し、績く第四卷「近世\n文學編」は校正の最終段階に至っていた。",
+                "metadata": {
+                  "box": [
+                    728,
+                    869,
+                    940,
+                    1541
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=728,869,940,1541"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-18",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "昨年十二月、入院中だった先生のご容態が悪化された際、「キュ\nウ ..... 」とつぶやかれたとのお知らせを令嬢しをり様からいただい\nた。それはきっと著作集を刊行している汲古書院のことであろう\nと、編集實務を摺営しておられた波古書院の小林紹子さん、そして\n編集に深く関わっておられた、先生の二松學舎の愛弟子である縣立\n廣島大學の丸山浩明さん、そして筆者の三人で、十二月十八日、病\n院へお見舞にうかがった。思ったよりもお元氣で、話しかけると、\n一つ一つ大きくうなずかれた。だいぶ弱られたご様子ではあった\nが、まさかその三日後の二十一日に息をひきとられるとは思わなか\nった。著作集の完成を目前にしてのご逝去はさぞやご無念であった\nろう。その著作集第四卷は三月に刊行され、最終第五巻も本年中に",
+                "metadata": {
+                  "box": [
+                    324,
+                    867,
+                    723,
+                    1542
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=324,867,723,1542"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-19",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "刊行の操定である。",
+                "metadata": {
+                  "box": [
+                    292,
+                    864,
+                    329,
+                    1063
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=292,864,329,1063"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-20",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "虚空院賢聖献道居士にいまはなられた先師のご冥顧を心からお祈り\nする次第である。",
+                "metadata": {
+                  "box": [
+                    227,
+                    869,
+                    289,
+                    1541
+                  ],
+                  "direction": "vertical",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=227,869,289,1541"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-21",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "七",
+                "metadata": {
+                  "box": [
+                    67,
+                    1410,
+                    99,
+                    1442
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=67,1410,99,1442"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-22",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "217",
+                "metadata": {
+                  "box": [
+                    114,
+                    77,
+                    159,
+                    109
+                  ],
+                  "direction": "horizontal",
+                  "role": null
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=114,77,159,109"
+            },
+            {
+              "@type": "oa:Annotation",
+              "@id": "https://oushiei120.github.io/iiif/annotation/text-3-23",
+              "motivation": "sc:commenting",
+              "resource": {
+                "@type": "dctypes:Text",
+                "format": "text/plain",
+                "chars": "(東京大學東洋文化研究所教授)",
+                "metadata": {
+                  "box": [
+                    189,
+                    1203,
+                    217,
+                    1517
+                  ],
+                  "direction": "vertical",
+                  "role": "page_footer"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3#xywh=189,1203,217,1517"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

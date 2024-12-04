@@ -129,7 +129,7 @@
                             const box = anno.resource.metadata.box;
                             
                             textItem.innerHTML = `
-                                <div class="text-role">${role}</div>
+                                <div class="text-role">${role || 'Text'}</div>
                                 <div class="text-content">${content}</div>
                                 <div class="text-direction">方向: ${direction}</div>
                                 <div class="text-box">位置: [${box.join(', ')}]</div>
