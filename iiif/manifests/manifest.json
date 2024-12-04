@@ -1,0 +1,85 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
+  "label": "Japanese Document Pages",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p1",
+          "label": "p. 1",
+          "height": 1000,
+          "width": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p1",
+              "resource": {
+                "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%201%20%E9%A1%B5/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%201%20%E9%A1%B5",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p1"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p2",
+          "label": "p. 2",
+          "height": 1000,
+          "width": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p2",
+              "resource": {
+                "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%202%20%E9%A1%B5/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%202%20%E9%A1%B5",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p2"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p3",
+          "label": "p. 3",
+          "height": 1000,
+          "width": 1000,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p3",
+              "resource": {
+                "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%203%20%E9%A1%B5/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://oushiei120.github.io/iiif/processed_images/%E7%AC%AC%203%20%E9%A1%B5",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://example.com/iiif/%E7%AC%AC%201%20%E9%A1%B5",
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        2048
+      ],
+      "width": 256
+    }
+  ],
+  "width": 3510,
+  "height": 2481
+}
