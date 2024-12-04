@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIIF Mirador Viewer with Annotations</title>
+    <title>IIIF Mirador Viewer</title>
     
     <!-- Mirador -->
     <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
@@ -33,15 +33,13 @@
                 allowFullscreen: true,
                 allowMaximize: true,
                 defaultView: 'single',
-                sideBarsOpen: true,
-                annotations: true
             }],
             window: {
                 allowClose: true,
                 allowFullscreen: true,
                 allowMaximize: true,
                 sideBarOpen: true,
-                sideBarPanel: 'annotations',
+                defaultSideBarPanel: 'info',
                 views: [
                     { key: 'single' },
                     { key: 'book' },
@@ -55,21 +53,12 @@
             workspaceControlPanel: {
                 enabled: true,
             },
-            annotation: {
-                adapter: (canvasId) => ({
-                    id: 'iiifAnnotationAdapter',
-                    annotationPageId: `https://oushiei120.github.io/iiif/annotations/page${canvasId.match(/p(\d+)$/)[1]}/list.json`,
-                    annotationPageBody: async () => {
-                        try {
-                            const response = await fetch(`https://oushiei120.github.io/iiif/annotations/page${canvasId.match(/p(\d+)$/)[1]}/list.json`);
-                            const data = await response.json();
-                            return data;
-                        } catch (error) {
-                            console.error('Error loading annotations:', error);
-                            return { resources: [] };
-                        }
+            theme: {
+                palette: {
+                    primary: {
+                        main: '#1967d2'
                     }
-                })
+                }
             }
         });
     </script>
