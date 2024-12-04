@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIIF Mirador Viewer</title>
+    <title>IIIF Mirador Viewer with OCR</title>
     
     <!-- Mirador -->
     <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
@@ -19,10 +19,40 @@
             margin: 0;
             padding: 0;
         }
+        .text-overlay {
+            position: absolute;
+            border: 1px solid rgba(255, 0, 0, 0.5);
+            background-color: rgba(255, 255, 0, 0.2);
+            pointer-events: all;
+            cursor: pointer;
+        }
+        .text-info {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            display: none;
+            z-index: 1000;
+        }
+        #searchBox {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
     <div id="viewer"></div>
+    <div id="searchBox">
+        <input type="text" id="searchInput" placeholder="搜索文本...">
+        <button onclick="searchText()">搜索</button>
+    </div>
+    <div id="textInfo" class="text-info"></div>
 
     <script type="text/javascript">
         var mirador = Mirador.viewer({
@@ -40,11 +70,6 @@
                 allowMaximize: true,
                 sideBarOpen: true,
                 defaultSideBarPanel: 'info',
-                views: [
-                    { key: 'single' },
-                    { key: 'book' },
-                    { key: 'gallery' }
-                ],
             },
             workspace: {
                 type: 'mosaic',
@@ -52,12 +77,90 @@
             },
             workspaceControlPanel: {
                 enabled: true,
-            },
-            theme: {
-                palette: {
-                    primary: {
-                        main: '#1967d2'
+            }
+        });
+
+        // 存储OCR数据
+        let ocrData = null;
+
+        // 加载OCR数据
+        async function loadOCRData(page) {
+            try {
+                const response = await fetch(`/json/page${page}.json`);
+                ocrData = await response.json();
+                showTextOverlays();
+            } catch (error) {
+                console.error('Error loading OCR data:', error);
+            }
+        }
+
+        // 显示文本框
+        function showTextOverlays() {
+            const viewer = document.querySelector('.mirador-viewer');
+            const canvas = viewer.querySelector('.mirador-osd-canvas');
+            
+            if (!canvas || !ocrData) return;
+
+            // 清除现有的覆盖层
+            document.querySelectorAll('.text-overlay').forEach(el => el.remove());
+
+            ocrData.words.forEach((word, index) => {
+                const overlay = document.createElement('div');
+                overlay.className = 'text-overlay';
+                overlay.setAttribute('data-index', index);
+                
+                // 设置位置和大小
+                const [x1, y1, x2, y2] = word.box || word.points;
+                overlay.style.left = `${x1}px`;
+                overlay.style.top = `${y1}px`;
+                overlay.style.width = `${x2 - x1}px`;
+                overlay.style.height = `${y2 - y1}px`;
+
+                overlay.addEventListener('click', () => showTextInfo(word));
+                canvas.appendChild(overlay);
+            });
+        }
+
+        // 显示文本信息
+        function showTextInfo(word) {
+            const infoDiv = document.getElementById('textInfo');
+            infoDiv.innerHTML = `
+                <h3>文本信息</h3>
+                <p>内容: ${word.content}</p>
+                <p>方向: ${word.direction}</p>
+                <p>置信度: ${(word.det_score * 100).toFixed(2)}%</p>
+            `;
+            infoDiv.style.display = 'block';
+        }
+
+        // 搜索文本
+        function searchText() {
+            const searchTerm = document.getElementById('searchInput').value;
+            if (!searchTerm || !ocrData) return;
+
+            const overlays = document.querySelectorAll('.text-overlay');
+            overlays.forEach(overlay => {
+                overlay.style.backgroundColor = 'rgba(255, 255, 0, 0.2)';
+            });
+
+            ocrData.words.forEach((word, index) => {
+                if (word.content.includes(searchTerm)) {
+                    const overlay = document.querySelector(`.text-overlay[data-index="${index}"]`);
+                    if (overlay) {
+                        overlay.style.backgroundColor = 'rgba(255, 0, 0, 0.4)';
                     }
+                }
+            });
+        }
+
+        // 监听Mirador的窗口变化
+        mirador.store.subscribe(() => {
+            const state = mirador.store.getState();
+            const windows = state.windows;
+            if (windows) {
+                const currentWindow = Object.values(windows)[0];
+                if (currentWindow && currentWindow.canvasIndex !== undefined) {
+                    loadOCRData(currentWindow.canvasIndex + 1);
                 }
             }
         });
