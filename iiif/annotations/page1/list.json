@@ -6,7 +6,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/46dc4902-f2a3-49f7-9f76-b8e36a1f79b3",
+      "@id": "https://oushiei120.github.io/iiif/annotations/023502c5-2016-4e5e-add4-6fa80d1d3c13",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -36,7 +36,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/136837bb-3cf2-43fa-a11a-2168a6c6cdf1",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2124b52b-6cf3-472a-9697-a9cc49c50803",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -66,7 +66,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/29c0294b-6225-45e3-915c-bb2a211fbd5c",
+      "@id": "https://oushiei120.github.io/iiif/annotations/16358275-79af-4588-a98e-1d9bc85a80a9",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -96,7 +96,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/3c3883ab-24bc-418d-be67-f80427c0b8b7",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e7914b6e-4bc7-4b9a-81fd-40fcacdfb903",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -126,7 +126,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ab4c56de-8e58-475c-9a63-2b7cf409b831",
+      "@id": "https://oushiei120.github.io/iiif/annotations/3f1d4e0a-1b97-4512-ac1f-9d0e7df47f0f",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -156,7 +156,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ca2d740f-9b21-4b5e-9dc6-edba60e6928a",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e03aa95a-1788-4d0a-9804-16dee6517cce",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -186,7 +186,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/177528f0-dede-47aa-a24d-b489a992b88f",
+      "@id": "https://oushiei120.github.io/iiif/annotations/69228701-274a-4675-b1df-56e2c8e18ac9",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -216,7 +216,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/16e86711-396b-4681-a9f2-58e7bd81d6c8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/796149eb-6747-479b-bbb1-c3f2eb7e0fc4",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -246,7 +246,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/69e4867c-1532-4751-a1de-bd12e0aceb9c",
+      "@id": "https://oushiei120.github.io/iiif/annotations/bb781648-5cde-47b0-aa44-b95d77fc019a",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -276,7 +276,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/4059ec20-a6d8-43d5-85ab-f03c79812f55",
+      "@id": "https://oushiei120.github.io/iiif/annotations/b617a07c-3f85-4619-9107-0879006c2116",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -306,7 +306,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/5ac28db7-9c58-445c-acf0-7442bc864777",
+      "@id": "https://oushiei120.github.io/iiif/annotations/b8986897-0d9b-4908-8b95-1ad0f4bb8f4d",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -336,7 +336,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/6174fc14-6536-45c8-be91-8dd219452c68",
+      "@id": "https://oushiei120.github.io/iiif/annotations/a87e85a0-5d69-4b7a-9d4a-8af6969332cd",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -366,7 +366,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/25cc0e15-1371-4af5-8c59-2396e625580b",
+      "@id": "https://oushiei120.github.io/iiif/annotations/110d5307-33ec-42ad-a385-e333c208c83c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -396,7 +396,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/68a254bd-02e3-45ac-b811-7a991099f71e",
+      "@id": "https://oushiei120.github.io/iiif/annotations/83ade021-be74-48d5-a2fe-887139b24290",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -426,7 +426,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/0cb460f6-99de-40b7-8444-1b98b8863eca",
+      "@id": "https://oushiei120.github.io/iiif/annotations/821c402b-e3dd-4b09-8662-1c9d1cec8782",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -456,7 +456,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/629787e5-53e1-4bcc-9e74-ef004aeb1dd9",
+      "@id": "https://oushiei120.github.io/iiif/annotations/aa645df2-161c-4c40-b964-521b4006f200",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -486,7 +486,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/a1e48a7c-bb00-4771-8a8f-8e6611d59ca3",
+      "@id": "https://oushiei120.github.io/iiif/annotations/1ce9bc8a-0350-4254-a610-2276cc9aca04",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -516,7 +516,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/2173a26f-f289-4557-9e30-30921e9dc074",
+      "@id": "https://oushiei120.github.io/iiif/annotations/d9a92603-35f4-447d-9054-f0fcf0494e0c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -546,7 +546,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/2b72696c-61fd-4f9f-b354-7487394932a7",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2db3fdc1-aa2a-4040-b94d-571dd642de4c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -576,7 +576,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/36ef47e1-ea53-4491-84cf-590a26436c26",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2dc2e5d9-6d74-4c7b-9de1-dae4d6872856",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -606,7 +606,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/bfd328d0-ef38-46b2-9aa6-5c5abdd10cc3",
+      "@id": "https://oushiei120.github.io/iiif/annotations/46596fd7-8c9e-41d5-a3d1-2101e8d2a505",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -636,7 +636,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/5c74478f-8840-4c7b-a4c2-a74b35c2622f",
+      "@id": "https://oushiei120.github.io/iiif/annotations/8c3f0f0d-4b00-45e7-bbb7-d2c3097ffc79",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -666,7 +666,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/2689334e-bcc7-4349-bd4e-7a084b1eea83",
+      "@id": "https://oushiei120.github.io/iiif/annotations/720dc51e-dfdd-41f3-9036-2ce64e0e10d2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -696,7 +696,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/c56f84a5-8e72-4070-97fe-b02114915251",
+      "@id": "https://oushiei120.github.io/iiif/annotations/b4efb975-d50a-4d30-a1b9-70e2d097b0fe",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -726,7 +726,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/fe9af040-f47d-4afd-9092-50147488e80e",
+      "@id": "https://oushiei120.github.io/iiif/annotations/608db437-ab2f-4109-b5b3-f5f43af3fa6a",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -756,7 +756,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/0c4e9c1b-a7c2-475e-b0d3-edd2723e8eea",
+      "@id": "https://oushiei120.github.io/iiif/annotations/671f9739-0dec-4b28-a4aa-236a9fecdb79",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -786,7 +786,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/c87af163-5b55-4dca-b02d-58bc26b3279d",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ce461756-ee27-4c06-819c-95dfae4d6cce",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -816,7 +816,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/dbc79631-29e1-45ff-bede-0e63b4465aae",
+      "@id": "https://oushiei120.github.io/iiif/annotations/339ae826-fc65-4906-acc2-8f09062d8c7f",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -846,7 +846,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/1302efa5-33c3-49fc-9692-5f5410c798c7",
+      "@id": "https://oushiei120.github.io/iiif/annotations/122f0e86-1aad-442f-8cc2-c5a3570b1879",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -876,7 +876,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/4ec501c3-d730-4ee2-a9af-51c15fedffda",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ce1f92c0-09ed-44b5-a073-b13bd88d4f6e",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -906,7 +906,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/39c74ced-3870-428c-9b11-7c2be7ca4754",
+      "@id": "https://oushiei120.github.io/iiif/annotations/fe28ce23-237c-4454-8fcd-fe47eda533c2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -936,7 +936,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/cef243cd-e3a5-44da-89ff-ff12a17ddb42",
+      "@id": "https://oushiei120.github.io/iiif/annotations/21e532f2-aff6-4815-9434-064cee2c2f75",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -966,7 +966,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/a70be13d-bac0-45d0-8e92-83950cf867fd",
+      "@id": "https://oushiei120.github.io/iiif/annotations/5409af18-7394-4ffa-98d4-9459953d20a2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -996,7 +996,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ecc21076-b692-42ef-81f4-d30f4c4ea8b5",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f52c1969-9f40-492d-97de-003cee3fc257",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1026,7 +1026,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/6a9f0792-4569-4413-b57f-c08076e00ed6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/95f9e5b9-71ea-4c70-9f49-cf839850f9c6",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1056,7 +1056,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/144fb303-8675-4868-8e6f-a6e5cdc46002",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ffbedde5-2104-467e-954e-235a4289163c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1086,7 +1086,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/b0869bba-3546-4f22-8585-68d167b618a8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ed2a586d-bd54-4156-9f53-3e88371c4fdd",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1116,7 +1116,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/f6cca988-357b-4242-9fe9-197197cc75de",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e721925e-eedd-4ccd-ba57-8b1ade6f9170",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1146,7 +1146,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/110ba604-7db0-4b71-9520-409b1685dae9",
+      "@id": "https://oushiei120.github.io/iiif/annotations/d76468e9-714e-48e3-95cd-8047c8452344",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1176,7 +1176,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/7ded9c43-0b02-4609-9f09-5c10dc26b03a",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c52687d0-3a04-4049-9839-412a0719f97a",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1206,7 +1206,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/15eca7a6-096c-43ce-bea4-411ef19cfed4",
+      "@id": "https://oushiei120.github.io/iiif/annotations/bc9f9f01-a9df-49cf-9941-46504cf27e55",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1236,7 +1236,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/73e2ba19-ce90-45bd-8809-5ce7d3eb4ed6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ec4a38f8-0250-4d79-b11e-7557acc097a3",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1266,7 +1266,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ba1a89fa-0cbf-4cc5-83e7-9d4767b067e6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c6fdb39f-23ff-4322-97b5-30fa85c3a222",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1296,7 +1296,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/fa581c3f-438e-4b67-8f6c-d1309b44970b",
+      "@id": "https://oushiei120.github.io/iiif/annotations/8f20c5de-e916-4a9b-89e5-113f352fb7aa",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1326,7 +1326,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/90c76b30-32b1-4dae-baba-071da34588a3",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c5f78d9e-10b2-4990-a155-f9091789995c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1356,7 +1356,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/c4ffdc45-e69a-4516-87cc-9924fced8a93",
+      "@id": "https://oushiei120.github.io/iiif/annotations/315c897b-f9b9-4873-9762-3cbcb975f3b2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1386,7 +1386,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/1831ab95-4dea-482a-a52b-2ac528c735bd",
+      "@id": "https://oushiei120.github.io/iiif/annotations/71cefcbf-5c23-47c3-8824-57105d1cb9bf",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1416,7 +1416,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/aa20702c-d3c7-46de-b588-f00cbe513d3a",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0cbcbc5f-fc0f-47cc-b1d7-f69ef061179f",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1446,7 +1446,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/79dc74ff-a8c2-4573-aca1-42a676137d80",
+      "@id": "https://oushiei120.github.io/iiif/annotations/bc029f6b-54bd-4f2d-b315-7e83c7fed089",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1476,7 +1476,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/03cc6a7b-6808-44f7-9936-aa0459ad266b",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ca73bce5-4e7c-4e65-881b-3032b651b50b",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1506,7 +1506,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/5b17550b-d0c5-4bef-a8ec-cbc64bf91db7",
+      "@id": "https://oushiei120.github.io/iiif/annotations/834fd821-4ae4-492a-af8f-830ab892c2bb",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1536,7 +1536,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/31043366-36e8-4b6d-9a91-b91d7a0b896d",
+      "@id": "https://oushiei120.github.io/iiif/annotations/29a6ba27-4791-4a24-9dce-876bd037e3ed",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1566,7 +1566,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/0838ba1f-c590-4ae6-bb12-9cc88f139fdb",
+      "@id": "https://oushiei120.github.io/iiif/annotations/099dc1d3-6c0e-48b6-b6a8-2765a541d40d",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1596,7 +1596,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/f75c790d-664f-4a68-97b4-77f2f0d5d0b1",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ed524167-a8d8-4dd1-8137-83f4c656b526",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1626,7 +1626,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/b265eae8-cc9f-4e13-8d98-ce62f4fdcb9d",
+      "@id": "https://oushiei120.github.io/iiif/annotations/50bd1e6a-8f9e-4d5a-ae89-70e187479ee0",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1656,7 +1656,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/e965a7e2-6a5b-4283-9a02-ac2bc80f6218",
+      "@id": "https://oushiei120.github.io/iiif/annotations/04a25a90-5da3-4f2e-aab7-6440ce665418",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1686,7 +1686,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/689482bf-9fa2-48cf-8d8a-a714b4c664d9",
+      "@id": "https://oushiei120.github.io/iiif/annotations/3aed9cd4-99d6-4812-ae2f-7e1875c15f70",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1716,7 +1716,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/9df5292c-f963-4dc0-88a3-0c17112315b8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/cb079888-da23-4508-b97d-24ba3f65b016",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1746,7 +1746,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/fae59aa7-d8dc-4521-a4a0-a195356978ab",
+      "@id": "https://oushiei120.github.io/iiif/annotations/2d337f3b-e1e4-42c2-a32a-a2c3fd4a7a61",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1776,7 +1776,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/9a7bbb5f-bdd6-4bce-bb27-dda2b23c0a79",
+      "@id": "https://oushiei120.github.io/iiif/annotations/c1841e60-351c-4dcc-9fb6-add2bcc71ced",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1806,7 +1806,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/1489f8df-b1f9-4c8a-9c8a-d312f20cb57e",
+      "@id": "https://oushiei120.github.io/iiif/annotations/20a450d3-0728-4522-9760-07cf6244ca2d",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1836,7 +1836,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ddea37ad-c422-4fc3-9c33-397679adbe3d",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0f5cef56-21ff-49d3-8dd7-4bb6df0c0fe8",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1866,7 +1866,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/597d9f48-9746-49db-9545-1740965a628c",
+      "@id": "https://oushiei120.github.io/iiif/annotations/7073a0f0-98bd-4f6e-87c5-e7a31f2d4b93",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1896,7 +1896,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/784210eb-bddc-4505-892a-b3a4775b1bd2",
+      "@id": "https://oushiei120.github.io/iiif/annotations/76ef479e-853e-4658-ad60-ade7f4914797",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1926,7 +1926,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/c55f801c-f533-4614-97b6-dc5f8c44cae8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/9ad26c10-1d23-40af-b92a-5c9ffc12de41",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1956,7 +1956,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/2269bcec-78a4-4895-9937-c59325404cf6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/178617e7-529a-4da3-aef9-3af2fe3c6c01",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -1986,7 +1986,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/8a4a8fe4-5454-42d0-8174-74f1638c2084",
+      "@id": "https://oushiei120.github.io/iiif/annotations/122695a3-87ec-43cf-99f3-62fabeec70e5",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2016,7 +2016,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/7d04a073-42c3-4fc6-91e3-a9c32bc9ad4c",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6347723a-eba7-48e9-990a-87656b7fe9a2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2046,7 +2046,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/6db7e10c-d279-4efa-a0e4-998225afa873",
+      "@id": "https://oushiei120.github.io/iiif/annotations/33e40bad-3a2e-4464-b12b-94df42cfb038",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2076,7 +2076,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/05b482c2-f26d-482c-bee9-7eadf6f7b5a4",
+      "@id": "https://oushiei120.github.io/iiif/annotations/66351632-98ec-4d64-85bd-5cb3598a9484",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2106,7 +2106,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/74fd5f69-ac6e-47ef-b6bb-a0b70069c597",
+      "@id": "https://oushiei120.github.io/iiif/annotations/83afb55e-a601-4b4f-be0d-34ec6e47b862",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2136,7 +2136,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/de5afc56-9c2d-45db-aa5f-906630c741fc",
+      "@id": "https://oushiei120.github.io/iiif/annotations/a8864fbb-a4d7-4de8-ba7b-3a3776b3a82c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2166,7 +2166,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/f52a8ed2-69dd-446d-b311-4fd4238aa9f0",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0a54b127-d774-47b0-b48a-301b3a73b639",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2196,7 +2196,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/d4d7e026-b934-4e42-9b1e-4f90bc83e76f",
+      "@id": "https://oushiei120.github.io/iiif/annotations/78fa5d0b-13d9-4bf1-ac33-9224214778d8",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2226,7 +2226,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/9e61eaba-3bcb-4f9d-96c2-5b0cd609dbb6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/520395cc-0608-4cd2-a9dd-38cbde9dff93",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2256,7 +2256,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/93662467-08f7-4133-aaf1-6da6181ea022",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e7641d46-ee1d-4dbf-9d68-2f39a4c0c272",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2286,7 +2286,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/81dbfa19-cf84-4a11-8b34-ba9677770c3c",
+      "@id": "https://oushiei120.github.io/iiif/annotations/cc5831cc-29ab-4718-b8c3-74c28241d4b7",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2316,7 +2316,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/6ee8d716-fa2a-428f-bbe4-b181d6d2166e",
+      "@id": "https://oushiei120.github.io/iiif/annotations/42e8c15d-f4c2-4a57-b351-62b651a40f9e",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2346,7 +2346,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/22d8bf1f-41d9-49db-b871-33d118e48b4e",
+      "@id": "https://oushiei120.github.io/iiif/annotations/857f65fd-3164-48d3-b682-edc69567ba81",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2376,7 +2376,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/39eb622f-6b19-4d26-b216-1ccc05015002",
+      "@id": "https://oushiei120.github.io/iiif/annotations/605e603a-5263-44df-bf0e-f467dabf09a4",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2406,7 +2406,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/10ab1254-27a1-4ae7-828b-97834915ea42",
+      "@id": "https://oushiei120.github.io/iiif/annotations/03a3a5bd-aa13-4c11-bca5-16edbcb985b2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2436,7 +2436,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/368cbd7d-2988-4067-9a0f-541a39bd30e7",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6f9da4f7-b24b-4516-8fa1-293ac41d9613",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2466,7 +2466,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/9ce099d3-fc62-45dd-a225-7486a76033b4",
+      "@id": "https://oushiei120.github.io/iiif/annotations/ed2d17c2-d69b-4986-9a48-b13759162824",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2496,7 +2496,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/1792c844-cf0a-41a5-bc06-b73948e8d152",
+      "@id": "https://oushiei120.github.io/iiif/annotations/7af4237a-58f3-4137-9139-bdfff09ad613",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2526,7 +2526,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/235d0a0e-47b3-4c4b-81ae-69c27c965420",
+      "@id": "https://oushiei120.github.io/iiif/annotations/f26f09f2-c056-42ba-b617-3c042c0a7698",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2556,7 +2556,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/686b269b-5325-4f76-8c5c-9915488190e1",
+      "@id": "https://oushiei120.github.io/iiif/annotations/89d59b97-6334-45db-aa80-95adf92b53c0",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2586,7 +2586,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/9f997fa5-9e5f-4817-816c-cc729de0747d",
+      "@id": "https://oushiei120.github.io/iiif/annotations/95623f46-ad7e-4f28-92c0-4c463da4bf69",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2616,7 +2616,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/f9ad93b5-40c8-4b1c-a525-e78e921976f5",
+      "@id": "https://oushiei120.github.io/iiif/annotations/db0bfb8d-98b4-4ff8-aaf9-b9a85eff96f2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2646,7 +2646,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/726b8344-852c-487b-8825-e7b8f19d7543",
+      "@id": "https://oushiei120.github.io/iiif/annotations/88058018-bd88-4040-a4c8-69f972b40511",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2676,7 +2676,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/e17f5532-f802-49ec-9ef1-0306321a42a6",
+      "@id": "https://oushiei120.github.io/iiif/annotations/4e8e7141-dd0e-4a5f-9329-d25db816bd9f",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2706,7 +2706,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/204ef9f2-593d-4899-b2d1-7e99f213cf7a",
+      "@id": "https://oushiei120.github.io/iiif/annotations/0fe7106e-ee19-454a-8ae0-407bc06e386b",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2736,7 +2736,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/42f95e12-6167-495c-abcf-15800977e80b",
+      "@id": "https://oushiei120.github.io/iiif/annotations/723af39c-5ccc-4bb6-b408-0ec98693fcb2",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2766,7 +2766,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/796085f3-b5ea-49c2-a6fc-aded821015f0",
+      "@id": "https://oushiei120.github.io/iiif/annotations/e852522b-8a27-44b6-bcae-ecf441e0dab6",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2796,7 +2796,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/ee61cd83-0d7d-47c0-bc03-a69eb46c30f8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/28ece6a4-afb9-4364-9835-406c4622e50c",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
@@ -2826,7 +2826,7 @@
     {
       "@context": "http://iiif.io/api/presentation/2/context.json",
       "@type": "oa:Annotation",
-      "@id": "https://oushiei120.github.io/iiif/annotations/f8b7b2b8-7480-416c-9f70-1a825e5ab3a8",
+      "@id": "https://oushiei120.github.io/iiif/annotations/6c86a6f3-07b0-4181-bd54-3519b0c5c164",
       "motivation": "sc:supplementing",
       "resource": {
         "@type": "dctypes:Text",
