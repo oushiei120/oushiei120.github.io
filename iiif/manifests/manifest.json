@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
-  "label": "Japanese Document Pages",
+  "label": "Image Collection",
   "sequences": [
     {
       "@type": "sc:Sequence",
@@ -70,6 +70,28 @@
                 "width": 3510
               },
               "on": "https://oushiei120.github.io/iiif/canvas/p3"
+            }
+          ]
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://oushiei120.github.io/iiif/canvas/p4",
+          "label": "p. 4",
+          "height": 2481,
+          "width": 3510,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "@id": "https://oushiei120.github.io/iiif/annotation/p4",
+              "resource": {
+                "@id": "https://oushiei120.github.io/images/%E7%AC%AC%203%20%E9%A1%B5_%E5%89%AF%E6%9C%AC.png",
+                "@type": "dctypes:Image",
+                "format": "image/png",
+                "height": 2481,
+                "width": 3510
+              },
+              "on": "https://oushiei120.github.io/iiif/canvas/p4"
             }
           ]
         }
