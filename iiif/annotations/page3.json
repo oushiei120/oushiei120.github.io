@@ -1,12 +1,16 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": [
+    "http://iiif.io/api/extension/text-granularity/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
   "id": "https://oushiei120.github.io/iiif/annotations/page3.json",
   "type": "AnnotationPage",
   "items": [
     {
       "id": "https://oushiei120.github.io/iiif/annotations/page3_1",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
+      "textGranularity": "word",
       "body": {
         "type": "TextualBody",
         "value": "216",
@@ -14,6 +18,7 @@
         "format": "text/plain"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/manifests/book1/canvas/p3",
         "selector": {
           "type": "FragmentSelector",
@@ -24,7 +29,8 @@
     {
       "id": "https://oushiei120.github.io/iiif/annotations/page3_2",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": ["supplementing"],
+      "textGranularity": "line",
       "body": {
         "type": "TextualBody",
         "value": "昨年十二月、入院中だった先生のご容態が悪化された際、「キュ",
@@ -32,6 +38,7 @@
         "format": "text/plain"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/manifests/book1/canvas/p3",
         "selector": {
           "type": "FragmentSelector",
