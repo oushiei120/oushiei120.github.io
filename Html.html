@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oushiei120 的 GitHub Pages</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mirador/3.3.0/mirador.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mirador/3.3.0/mirador.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        #mirador {
+            width: 100%;
+            height: 600px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎访问王子睿（oushiei）的学术成果网站</h1>
+    <p>以下是相关学术成果的在线演示版本：</p>
+    
+    <h2>《红楼梦》日译本笑态翻译研究：基于语料库与文眼分析法</h2>
+    <ul>
+        <li><a href="两译本译词网络图对比.html" target="_blank">两译本译词网络图对比</a></li>
+        <li><a href="两译本译词桑基图对比.html" target="_blank">两译本译词桑基图对比</a></li>
+    </ul>
+
+    <h2>IIIF 图像查看器</h2>
+    <div id="mirador"></div>
+
+    <script>
+        var miradorInstance = Mirador.viewer({
+            id: 'mirador',
+            manifests: {
+                'https://example.com/manifest.json': {
+                    provider: 'Example Provider'
+                }
+            }
+        });
+    </script>
+</body>
+</html>
