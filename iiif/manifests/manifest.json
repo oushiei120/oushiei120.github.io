@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@type": "sc:Manifest",
   "@id": "https://oushiei120.github.io/iiif/manifests/manifest.json",
-  "label": "Image Collection",
+  "label": "Image Collection with Annotations",
   "sequences": [
     {
       "@type": "sc:Sequence",
@@ -27,7 +27,8 @@
               },
               "on": "https://oushiei120.github.io/iiif/canvas/p1"
             }
-          ]
+          ],
+          "otherContent": []
         },
         {
           "@type": "sc:Canvas",
@@ -49,7 +50,8 @@
               },
               "on": "https://oushiei120.github.io/iiif/canvas/p2"
             }
-          ]
+          ],
+          "otherContent": []
         },
         {
           "@type": "sc:Canvas",
@@ -71,7 +73,8 @@
               },
               "on": "https://oushiei120.github.io/iiif/canvas/p3"
             }
-          ]
+          ],
+          "otherContent": []
         },
         {
           "@type": "sc:Canvas",
@@ -93,7 +96,8 @@
               },
               "on": "https://oushiei120.github.io/iiif/canvas/p4"
             }
-          ]
+          ],
+          "otherContent": []
         }
       ]
     }
