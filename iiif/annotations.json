@@ -18,7 +18,7 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=78,179,26,265"
+          "value": "xywh=0.078,0.179,0.026,0.265"
         }
       }
     },
@@ -37,7 +37,26 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=2249,180,27,234"
+          "value": "xywh=0.2249,0.180,0.027,0.234"
+        }
+      }
+    },
+    {
+      "id": "https://oushiei120.github.io/iiif/annotation/content",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "論」を公刊されるまでのゆくたて(『伊藤激不著作集』I「自破\n–––處女論文から著作集まで––」参照)などは露ほども知らぬま\nま、一九五五年四月、島根大學へ赴任する二十九歳の「激平さん」\nを札幌騨にてお見送りしたのである。",
+        "format": "text/plain",
+        "language": "ja",
+        "textDirection": "vertical"
+      },
+      "target": {
+        "source": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=0.2095,0.129,0.134,0.675"
         }
       }
     }
