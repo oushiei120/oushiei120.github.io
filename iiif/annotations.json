@@ -1,0 +1,25 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://oushiei120.github.io/iiif/annotations.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://oushiei120.github.io/iiif/annotation/external1",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "这是一个外部引用注释的例子",
+        "format": "text/plain",
+        "language": "zh"
+      },
+      "target": {
+        "source": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=200,200,400,150"
+        }
+      }
+    }
+  ]
+}

@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IIIF Mirador Viewer</title>
+    <title>IIIF 注释示例</title>
     
     <!-- Mirador -->
     <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
     <script src="https://unpkg.com/mirador@3.3.0/dist/mirador.min.js"></script>
     
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
         #viewer {
             position: absolute;
-            top: 0;
+            top: 80px;
             bottom: 0;
             left: 0;
             right: 0;
@@ -22,28 +33,43 @@
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>IIIF 注释示例</h1>
+        <p>左侧：嵌入式注释 | 右侧：引用式注释</p>
+    </div>
     <div id="viewer"></div>
 
     <script type="text/javascript">
         var mirador = Mirador.viewer({
             id: "viewer",
-            windows: [{
-                manifestId: 'https://oushiei120.github.io/iiif/manifests/manifest.json',
-                allowClose: true,
-                allowFullscreen: true,
-                allowMaximize: true,
-                defaultView: 'single',
-            }],
+            windows: [
+                {
+                    manifestId: 'https://oushiei120.github.io/iiif/manifest-embedded.json',
+                    allowClose: false,
+                    allowFullscreen: true,
+                    allowMaximize: true,
+                    defaultView: 'single',
+                    defaultSideBarPanel: 'annotations',
+                    sideBarOpenByDefault: true,
+                },
+                {
+                    manifestId: 'https://oushiei120.github.io/iiif/manifest-referenced.json',
+                    allowClose: false,
+                    allowFullscreen: true,
+                    allowMaximize: true,
+                    defaultView: 'single',
+                    defaultSideBarPanel: 'annotations',
+                    sideBarOpenByDefault: true,
+                }
+            ],
             window: {
-                allowClose: true,
+                allowClose: false,
                 allowFullscreen: true,
                 allowMaximize: true,
                 sideBarOpen: true,
-                defaultSideBarPanel: 'info',
+                defaultSideBarPanel: 'annotations',
                 views: [
-                    { key: 'single' },
-                    { key: 'book' },
-                    { key: 'gallery' }
+                    { key: 'single' }
                 ],
             },
             workspace: {
