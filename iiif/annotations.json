@@ -4,20 +4,56 @@
   "type": "AnnotationPage",
   "items": [
     {
-      "id": "https://oushiei120.github.io/iiif/annotation/external1",
+      "id": "https://oushiei120.github.io/iiif/annotation/page-number-1",
       "type": "Annotation",
       "motivation": "commenting",
       "body": {
         "type": "TextualBody",
-        "value": "这是一个外部引用注释的例子",
+        "value": "212",
         "format": "text/plain",
-        "language": "zh"
+        "language": "ja"
       },
       "target": {
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=200,200,400,150"
+          "value": "xywh=2195,85,35,22"
+        }
+      }
+    },
+    {
+      "id": "https://oushiei120.github.io/iiif/annotation/page-number-2",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "213",
+        "format": "text/plain",
+        "language": "ja"
+      },
+      "target": {
+        "source": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=124,83,35,23"
+        }
+      }
+    },
+    {
+      "id": "https://oushiei120.github.io/iiif/annotation/title",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "value": "追憶の伊藤激平先生(中野)",
+        "format": "text/plain",
+        "language": "ja"
+      },
+      "target": {
+        "source": "https://oushiei120.github.io/iiif/canvas/p1",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=78,179,26,265"
         }
       }
     }

@@ -2,13 +2,17 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://oushiei120.github.io/iiif/manifest-referenced.json",
   "type": "Manifest",
-  "label": { "en": ["Example with Referenced Annotations"] },
+  "label": { 
+    "ja": ["追憶の伊藤激平先生"],
+    "en": ["Remembering Professor Ito Geihei"]
+  },
   "items": [
     {
       "id": "https://oushiei120.github.io/iiif/canvas/p1",
       "type": "Canvas",
       "height": 2481,
       "width": 3510,
+      "label": { "ja": ["212-213頁"] },
       "items": [
         {
           "id": "https://oushiei120.github.io/iiif/page/p1/1",
