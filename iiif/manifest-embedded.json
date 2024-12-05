@@ -34,56 +34,59 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://oushiei120.github.io/iiif/annotation/p1-text1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "type": "TextualBody",
-                "value": "212",
-                "format": "text/plain",
-                "language": "ja"
-              },
-              "target": {
-                "source": "https://oushiei120.github.io/iiif/canvas/p1",
-                "selector": {
-                  "type": "FragmentSelector",
-                  "value": "xywh=0.625,0.034,0.01,0.009"
-                }
-              }
-            },
-            {
-              "id": "https://oushiei120.github.io/iiif/annotation/p1-text2",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "type": "TextualBody",
-                "value": "213",
-                "format": "text/plain",
-                "language": "ja"
-              },
-              "target": {
-                "source": "https://oushiei120.github.io/iiif/canvas/p1",
-                "selector": {
-                  "type": "FragmentSelector",
-                  "value": "xywh=0.035,0.033,0.01,0.009"
-                }
-              }
-            },
-            {
-              "id": "https://oushiei120.github.io/iiif/annotation/p1-comment1",
+              "id": "https://oushiei120.github.io/iiif/annotation/title-embedded",
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
                 "type": "TextualBody",
-                "value": "这是一个嵌入式注释的例子",
+                "value": "追憶の伊藤激平先生(中野)",
                 "format": "text/plain",
-                "language": "zh"
+                "language": "ja",
+                "textDirection": "vertical"
               },
               "target": {
                 "source": "https://oushiei120.github.io/iiif/canvas/p1",
                 "selector": {
                   "type": "FragmentSelector",
-                  "value": "xywh=100,100,300,100"
+                  "value": "xywh=78,179,26,265"
+                }
+              }
+            },
+            {
+              "id": "https://oushiei120.github.io/iiif/annotation/section-embedded",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "東方學第百二十軒",
+                "format": "text/plain",
+                "language": "ja",
+                "textDirection": "vertical"
+              },
+              "target": {
+                "source": "https://oushiei120.github.io/iiif/canvas/p1",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=2249,180,27,234"
+                }
+              }
+            },
+            {
+              "id": "https://oushiei120.github.io/iiif/annotation/content-embedded",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "論」を公刊されるまでのゆくたて(『伊藤激不著作集』I「自破\n–––處女論文から著作集まで––」参照)などは露ほども知らぬま\nま、一九五五年四月、島根大學へ赴任する二十九歳の「激平さん」\nを札幌騨にてお見送りしたのである。",
+                "format": "text/plain",
+                "language": "ja",
+                "textDirection": "vertical"
+              },
+              "target": {
+                "source": "https://oushiei120.github.io/iiif/canvas/p1",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=2095,129,134,675"
                 }
               }
             }
