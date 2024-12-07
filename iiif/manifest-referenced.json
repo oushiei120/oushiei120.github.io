@@ -6,6 +6,7 @@
     "ja": ["test1"],
     "en": ["test1"]
   },
+  "behavior": ["paged"],
   "items": [
     {
       "id": "https://oushiei120.github.io/iiif/canvas/p1",
@@ -13,6 +14,7 @@
       "height": 1298,
       "width": 1850,
       "label": { "ja": ["随意"] },
+      "behavior": ["commenting"],
       "items": [
         {
           "id": "https://oushiei120.github.io/iiif/page/p1/1",

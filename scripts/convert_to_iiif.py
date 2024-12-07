@@ -25,7 +25,7 @@ def convert_to_iiif(input_json_path, base_url):
             annotation = {
                 "id": f"{base_url}/iiif/annotation/p1-text-{idx+1}",
                 "type": "Annotation",
-                "motivation": "supplementing",
+                "motivation": "commenting",
                 "body": {
                     "type": "TextualBody",
                     "value": para["contents"],
