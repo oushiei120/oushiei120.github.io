@@ -20,14 +20,12 @@ def convert_to_iiif(input_json_path, base_url):
             # 直接使用原始坐标
             box = para["box"]
             x1, y1, x2, y2 = box
-            w = x2 - x1
-            h = y2 - y1
             
             # 创建单个注释
             annotation = {
                 "id": f"{base_url}/iiif/annotation/p1-text-{idx+1}",
                 "type": "Annotation",
-                "motivation": "commenting",
+                "motivation": "supplementing",
                 "body": {
                     "type": "TextualBody",
                     "value": para["contents"],
@@ -35,16 +33,10 @@ def convert_to_iiif(input_json_path, base_url):
                     "language": "ja"
                 },
                 "target": {
-                    "type": "SpecificResource",
                     "source": f"{base_url}/iiif/canvas/p1",
                     "selector": {
                         "type": "FragmentSelector",
-                        "conformsTo": "http://www.w3.org/TR/media-frags/",
-                        "value": f"xywh={x1},{y1},{w},{h}"
-                    },
-                    "state": {
-                        "type": "TimeState",
-                        "cached": "2024-12-07T22:36:08+08:00"
+                        "value": f"xywh={x1},{y1},{x2-x1},{y2-y1}"
                     }
                 }
             }
@@ -74,5 +66,5 @@ if __name__ == "__main__":
     base_url = "https://oushiei120.github.io"
     
     # 执行转换
-    output_path = convert_to_iiif(input_json_path=input_path, base_url=base_url)
+    output_path = convert_to_iiif(input_path, base_url)
     print(f"转换完成！IIIF文件已保存到: {output_path}")
