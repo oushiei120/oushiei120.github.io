@@ -10,8 +10,8 @@
     {
       "id": "https://oushiei120.github.io/iiif/canvas/p1",
       "type": "Canvas",
-      "height": 1850,
-      "width": 1298,
+      "height": 1298,
+      "width": 1850,
       "label": { "ja": ["随意"] },
       "items": [
         {
@@ -26,8 +26,8 @@
                 "id": "https://oushiei120.github.io/images/page1.png",
                 "type": "Image",
                 "format": "image/png",
-                "height": 1850, 
-                "width": 1298
+                "height": 1298,
+                "width": 1850
               },
               "target": "https://oushiei120.github.io/iiif/canvas/p1"
             }
