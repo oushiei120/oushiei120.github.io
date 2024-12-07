@@ -19,10 +19,8 @@ def convert_to_iiif(input_json_path, base_url):
         if "contents" in para and "box" in para:
             # 直接使用原始坐标
             box = para["box"]
-            x = box[0]
-            y = box[1]
-            w = box[2] - box[0]
-            h = box[3] - box[1]
+            # 注意：这里直接使用原始坐标，不做计算
+            x1, y1, x2, y2 = box
             
             # 创建单个注释
             annotation = {
@@ -37,12 +35,10 @@ def convert_to_iiif(input_json_path, base_url):
                     "language": "ja"
                 },
                 "target": {
-                    "type": "SpecificResource",
                     "source": f"{base_url}/iiif/canvas/p1",
                     "selector": {
                         "type": "FragmentSelector",
-                        "value": f"xywh={x},{y},{w},{h}",
-                        "conformsTo": "http://www.w3.org/TR/media-frags/"
+                        "value": f"xywh={x1},{y1},{x2-x1},{y2-y1}"
                     }
                 }
             }
