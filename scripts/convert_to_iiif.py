@@ -19,7 +19,6 @@ def convert_to_iiif(input_json_path, base_url):
         if "contents" in para and "box" in para:
             # 直接使用原始坐标
             box = para["box"]
-            # 注意：这里直接使用原始坐标，不做计算
             x1, y1, x2, y2 = box
             
             # 创建单个注释
@@ -27,7 +26,6 @@ def convert_to_iiif(input_json_path, base_url):
                 "id": f"{base_url}/iiif/annotation/p1-text-{idx+1}",
                 "type": "Annotation",
                 "motivation": "supplementing",
-                "textGranularity": "paragraph",
                 "body": {
                     "type": "TextualBody",
                     "value": para["contents"],
@@ -46,10 +44,7 @@ def convert_to_iiif(input_json_path, base_url):
     
     # 创建IIIF AnnotationPage
     iiif_data = {
-        "@context": [
-            "http://iiif.io/api/extension/text-granularity/context.json",
-            "http://iiif.io/api/presentation/3/context.json"
-        ],
+        "@context": "http://iiif.io/api/presentation/3/context.json",
         "id": f"{base_url}/iiif/annotation1.json",
         "type": "AnnotationPage",
         "items": annotations
