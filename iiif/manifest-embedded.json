@@ -92,6 +92,12 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "id": "https://oushiei120.github.io/iiif/annotation1.json",
+          "type": "AnnotationPage"
+        }
       ]
     }
   ]
