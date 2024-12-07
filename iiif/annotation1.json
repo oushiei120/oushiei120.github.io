@@ -5,7 +5,6 @@
   "items": [
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-1",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -18,13 +17,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1556,635,175,1129"
+          "value": "xywh=119.87673343605547,4.648648648648648,13.482280431432974,61.027027027027025"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-2",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -37,13 +35,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1466,641,69,1121"
+          "value": "xywh=112.94298921417565,4.756756756756757,5.315870570107858,60.5945945945946"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-3",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -56,13 +53,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=781,1264,38,434"
+          "value": "xywh=60.16949152542372,8.216216216216216,2.9275808936825887,23.45945945945946"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-4",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -75,13 +71,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1409,667,28,199"
+          "value": "xywh=108.55161787365178,53.18918918918919,2.157164869029276,10.756756756756756"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-5",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -94,13 +89,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1361,667,30,278"
+          "value": "xywh=104.85362095531588,48.91891891891892,2.311248073959938,15.027027027027026"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-6",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -113,13 +107,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=736,874,35,692"
+          "value": "xywh=56.70261941448382,15.35135135135135,2.6964560862865947,37.4054054054054"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-7",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -132,13 +125,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=452,648,225,1123"
+          "value": "xywh=34.82280431432974,4.27027027027027,17.334360554699536,60.7027027027027"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-8",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -151,13 +143,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=124,650,315,1123"
+          "value": "xywh=9.553158705701078,4.162162162162162,24.268104776579353,60.7027027027027"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-9",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -170,13 +161,12 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=155,604,302,23"
+          "value": "xywh=11.941448382126348,66.10810810810811,23.26656394453005,1.2432432432432432"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-10",
-      "@context": "http://iiif.io/api/presentation/3/context.json",
       "type": "Annotation",
       "motivation": "supplementing",
       "body": {
@@ -189,7 +179,7 @@
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1718,593,23,18"
+          "value": "xywh=132.35747303543914,66.97297297297298,1.7719568567026194,0.9729729729729729"
         }
       }
     }
