@@ -1,82 +1,40 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IIIF 注释示例</title>
-    
-    <!-- Mirador -->
-    <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
-    <script src="https://unpkg.com/mirador@3.3.0/dist/mirador.min.js"></script>
-    
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: sans-serif;
         }
         .header {
             background-color: #f8f9fa;
-            padding: 20px;
+            padding: 1rem;
             text-align: center;
-            border-bottom: 1px solid #ddd;
+            border-bottom: 1px solid #dee2e6;
         }
-        #viewer {
-            position: absolute;
-            top: 80px;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: 0;
-            padding: 0;
+        #uv {
+            width: 100%;
+            height: calc(100vh - 100px);
         }
     </style>
+    <script type="text/javascript" src="https://universalviewer.io/umd/UV.js"></script>
 </head>
 <body>
     <div class="header">
         <h1>IIIF 注释示例 v1.6</h1>
     </div>
-    <div id="viewer"></div>
+    <div id="uv"></div>
 
     <script type="text/javascript">
-        var mirador = Mirador.viewer({
-            id: "viewer",
-            windows: [
-                {
-                    manifestId: 'https://oushiei120.github.io/iiif/manifest-referenced.json',
-                    allowClose: true,
-                    allowFullscreen: true,
-                    allowMaximize: true,
-                    defaultView: 'single',
-                    defaultSideBarPanel: 'annotations',
-                    sideBarOpenByDefault: true,
-                }
-            ],
-            window: {
-                allowClose: false,
-                allowFullscreen: true,
-                allowMaximize: true,
-                sideBarOpen: true,
-                defaultSideBarPanel: 'annotations',
-                views: [
-                    { key: 'single' }
-                ],
-            },
-            workspace: {
-                type: 'mosaic',
-                showZoomControls: true,
-            },
-            workspaceControlPanel: {
-                enabled: true,
-            },
-            theme: {
-                palette: {
-                    primary: {
-                        main: '#1967d2'
-                    }
-                }
-            }
-        });
+        window.addEventListener('uvLoaded', function(e) { 
+            createUV('#uv', {
+                manifest: 'https://oushiei120.github.io/iiif/manifest-referenced.json'
+            }, new UV.URLDataProvider());
+        }, false);
     </script>
 </body>
 </html>
