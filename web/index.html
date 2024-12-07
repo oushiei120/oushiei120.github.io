@@ -1,47 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IIIF 注释示例</title>
+    
+    <!-- Mirador -->
+    <link rel="stylesheet" href="https://unpkg.com/mirador@3.3.0/dist/mirador.min.css">
+    <script src="https://unpkg.com/mirador@3.3.0/dist/mirador.min.js"></script>
+    
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: sans-serif;
+            font-family: Arial, sans-serif;
         }
         .header {
             background-color: #f8f9fa;
-            padding: 1rem;
+            padding: 20px;
             text-align: center;
-            border-bottom: 1px solid #dee2e6;
+            border-bottom: 1px solid #ddd;
         }
-        #uv {
-            width: 100%;
-            height: calc(100vh - 100px);
-            background-color: #000;
+        #viewer {
+            position: absolute;
+            top: 80px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
         }
     </style>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/universalviewer@3.1.1/dist/uv.css">
-    <script src="https://cdn.jsdelivr.net/npm/universalviewer@3.1.1/dist/uv.js"></script>
 </head>
 <body>
     <div class="header">
         <h1>IIIF 注释示例 v1.6</h1>
     </div>
-    <div id="uv" class="uv"></div>
-    <script>
-        var myUV = UV.init('uv', {
-            root: '.',
-            iiifResourceUri: 'https://oushiei120.github.io/iiif/manifest-referenced.json',
-            configUri: 'https://cdn.jsdelivr.net/npm/universalviewer@3.1.1/dist/uv-config.json',
-            canvasIndex: 0,
-            embedded: true,
-            rotation: 0,
-            locales: [{
-                name: 'ja-JP',
-                label: '日本語'
-            }]
+    <div id="viewer"></div>
+
+    <script type="text/javascript">
+        var mirador = Mirador.viewer({
+            id: "viewer",
+            windows: [
+                {
+                    manifestId: 'https://oushiei120.github.io/iiif/manifest-referenced.json',
+                    allowClose: true,
+                    allowFullscreen: true,
+                    allowMaximize: true,
+                    defaultView: 'single',
+                    defaultSideBarPanel: 'annotations',
+                    sideBarOpenByDefault: true,
+                }
+            ],
+            window: {
+                allowClose: false,
+                allowFullscreen: true,
+                allowMaximize: true,
+                sideBarOpen: true,
+                defaultSideBarPanel: 'annotations',
+                views: [
+                    { key: 'single' }
+                ],
+            },
+            workspace: {
+                type: 'mosaic',
+                showZoomControls: true,
+            },
+            workspaceControlPanel: {
+                enabled: true,
+            },
+            theme: {
+                palette: {
+                    primary: {
+                        main: '#1967d2'
+                    }
+                }
+            }
         });
     </script>
 </body>
