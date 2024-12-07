@@ -29,6 +29,7 @@ def convert_to_iiif(input_json_path, base_url):
                 "id": f"{base_url}/iiif/annotation/p1-text-{idx+1}",
                 "type": "Annotation",
                 "motivation": "supplementing",
+                "textGranularity": "paragraph",
                 "body": {
                     "type": "TextualBody",
                     "value": para["contents"],
@@ -47,6 +48,10 @@ def convert_to_iiif(input_json_path, base_url):
     
     # 创建IIIF AnnotationPage
     iiif_data = {
+        "@context": [
+            "http://iiif.io/api/extension/text-granularity/context.json",
+            "http://iiif.io/api/presentation/3/context.json"
+        ],
         "id": f"{base_url}/iiif/annotation1.json",
         "type": "AnnotationPage",
         "items": annotations
