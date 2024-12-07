@@ -6,7 +6,7 @@
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-1",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "(付記) 」 最近松枝茂夫先生にお眼にかかる機会があって伺ったところでは、東京帝国大学助教\n授に発令されたのは二十二年四月州日附、また辞任の発令は翌二十三年十月州日附で、一年有半在職\nした。『六朝文契』は二十三年度の演習のテキストに選んだが、その年度は六月頃まで授業をしたあ\nと九州へ引揚げたと思う、とのお話であった。補正しておく。",
@@ -14,17 +14,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1556,86,175,1129"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-2",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "に これも最近のこと「中央線沿線古書店地図」というのをもらったのを幸い確めてみたが、高円\n寺駅周辺に赤川書店は見当たらぬ。いつの頃にか廃業したものと思しい。",
@@ -32,17 +38,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1466,88,69,1121"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-3",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "古典から現代への架橋の試み",
@@ -50,17 +62,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=781,152,38,434"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-4",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "(八月末校後に記す)",
@@ -68,17 +86,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1409,984,28,199"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-5",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "(昭和五十三年 『熱風』七)",
@@ -86,17 +110,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1361,905,30,278"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-6",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "増田渉著「中国文学史研究–文学革命と前夜の人々」読後",
@@ -104,17 +134,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=736,284,35,692"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-7",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "人間と生まれたからには、生のシルシを世に遺すべきだ––こういう趣旨のことばを、著者増田渉\n教授の口から聞いたおばえがある。受業生の一人である筆者–––二十年前、わたくしは東京大学の中\n国文学科の学生であり、そのころ教授は現在のわたくしほどの年輩で、非常勤講師として現代文学を\n講じていた––––に対しての教訓というではなく、教授は自身に言い聞かせているふうであった。たし\nか五、六年前、心臓の大患後の回復期のことであったと思う。",
@@ -122,17 +158,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=452,79,225,1123"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-8",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "「『文学革命』と前夜の人々」という副題を持った教授の新書『中国文学史研究』こそは、まさしく\nその「生のシルシ」の一つに数えられるべき仕事にほかならない。この書物が、よわい還暦を過ぎ、\nこの三月に本学を定年退任した著者にとって始めて一本にまとめられたいわゆる「学術的著作」であ\nるといえば、読者は意外の念を抱くかも知れない。ブックメーカーの横行する当今、まずもってその\nことを、筆者は珍重する。さらにまた戦前、漢学の世界に対する反逆を一つの旗じるしとした中国文\n学研究会の長者として、会の月報中で「学界に媚びんよりはジャーナリズムに媚びよ」との警句を叶\nいて一部の会員のど胆を抜いた壮年の著者が、いまようやく一本にまとめて世に問う「学術的著作」",
@@ -140,17 +182,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=124,77,315,1123"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-9",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "15 古典から現代への架橋の試み",
@@ -158,17 +206,23 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=155,1223,302,23"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     },
     {
       "id": "https://oushiei120.github.io/iiif/annotation/p1-text-10",
       "type": "Annotation",
-      "motivation": "supplementing",
+      "motivation": "commenting",
       "body": {
         "type": "TextualBody",
         "value": "14",
@@ -176,10 +230,16 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1718,1239,23,18"
+        },
+        "state": {
+          "type": "TimeState",
+          "cached": "2024-12-07T22:36:08+08:00"
         }
       }
     }
