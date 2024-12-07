@@ -1,12 +1,11 @@
 import json
 import os
 
-def convert_to_iiif(input_json_path, base_url, image_size=None):
+def convert_to_iiif(input_json_path, base_url):
     """
     转换JSON到IIIF注释格式
     :param input_json_path: 输入JSON文件路径
     :param base_url: 基础URL
-    :param image_size: 图片尺寸元组 (width, height)，如果需要坐标转换
     """
     # 读取输入的JSON文件
     with open(input_json_path, 'r', encoding='utf-8') as f:
@@ -18,19 +17,12 @@ def convert_to_iiif(input_json_path, base_url, image_size=None):
     # 处理段落
     for idx, para in enumerate(source_data.get("paragraphs", [])):
         if "contents" in para and "box" in para:
-            # 转换坐标为IIIF格式 (x,y,w,h)
+            # 直接使用原始坐标
             box = para["box"]
             x = box[0]
-            y = box[1]  # 使用原始坐标
+            y = box[1]
             w = box[2] - box[0]
             h = box[3] - box[1]
-            
-            # 如果提供了图像尺寸，进行坐标转换
-            if image_size:
-                x = x / image_size[0] * 100  # 转换x坐标为百分比
-                y = y / image_size[1] * 100  # 转换y坐标为百分比
-                w = w / image_size[0] * 100  # 转换宽度为百分比
-                h = h / image_size[1] * 100  # 转换高度为百分比
             
             # 创建单个注释
             annotation = {
@@ -76,9 +68,6 @@ if __name__ == "__main__":
     input_path = "/Users/oushiei/Documents/GitHub/oushiei120.github.io/json/page1_page1_p1.json"
     base_url = "https://oushiei120.github.io"
     
-    # 从manifest中获取图像尺寸
-    image_size = (1298, 1850)  # (width, height)
-    
     # 执行转换
-    output_path = convert_to_iiif(input_path, base_url, image_size)
+    output_path = convert_to_iiif(input_path, base_url)
     print(f"转换完成！IIIF文件已保存到: {output_path}")
