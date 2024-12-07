@@ -18,10 +18,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1556,86,175,1129"
+          "value": "xywh=1556,86,175,1129",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -37,10 +39,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1466,88,69,1121"
+          "value": "xywh=1466,88,69,1121",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -56,10 +60,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=781,152,38,434"
+          "value": "xywh=781,152,38,434",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -75,10 +81,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1409,984,28,199"
+          "value": "xywh=1409,984,28,199",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -94,10 +102,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1361,905,30,278"
+          "value": "xywh=1361,905,30,278",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -113,10 +123,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=736,284,35,692"
+          "value": "xywh=736,284,35,692",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -132,10 +144,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=452,79,225,1123"
+          "value": "xywh=452,79,225,1123",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -151,10 +165,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=124,77,315,1123"
+          "value": "xywh=124,77,315,1123",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -170,10 +186,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=155,1223,302,23"
+          "value": "xywh=155,1223,302,23",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     },
@@ -189,10 +207,12 @@
         "language": "ja"
       },
       "target": {
+        "type": "SpecificResource",
         "source": "https://oushiei120.github.io/iiif/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
-          "value": "xywh=1718,1239,23,18"
+          "value": "xywh=1718,1239,23,18",
+          "conformsTo": "http://www.w3.org/TR/media-frags/"
         }
       }
     }

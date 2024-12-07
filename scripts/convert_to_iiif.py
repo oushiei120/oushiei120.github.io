@@ -37,10 +37,12 @@ def convert_to_iiif(input_json_path, base_url):
                     "language": "ja"
                 },
                 "target": {
+                    "type": "SpecificResource",
                     "source": f"{base_url}/iiif/canvas/p1",
                     "selector": {
                         "type": "FragmentSelector",
-                        "value": f"xywh={x},{y},{w},{h}"
+                        "value": f"xywh={x},{y},{w},{h}",
+                        "conformsTo": "http://www.w3.org/TR/media-frags/"
                     }
                 }
             }
