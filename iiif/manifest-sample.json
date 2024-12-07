@@ -1,10 +1,10 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://oushiei120.github.io/iiif/manifest-referenced.json",
+  "id": "https://oushiei120.github.io/iiif/manifest-sample.json",
   "type": "Manifest",
   "label": { 
-    "ja": ["test1"],
-    "en": ["test1"]
+    "ja": ["サンプル文書"],
+    "en": ["Sample Document"]
   },
   "items": [
     {
@@ -12,7 +12,7 @@
       "type": "Canvas",
       "height": 1850,
       "width": 1298,
-      "label": { "ja": ["随意"] },
+      "label": { "ja": ["1ページ目"] },
       "items": [
         {
           "id": "https://oushiei120.github.io/iiif/page/p1/1",
@@ -36,7 +36,7 @@
       ],
       "annotations": [
         {
-          "id": "https://oushiei120.github.io/iiif/annotation1.json",
+          "id": "https://oushiei120.github.io/iiif/annotations/p1.json",
           "type": "AnnotationPage"
         }
       ]
