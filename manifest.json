@@ -1,0 +1,67 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://kokusho.nijl.ac.jp/biblio/200021515/manifest",
+    "@type": "sc:Manifest",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "曹 霑"
+        },
+        {
+            "label": "Title",
+            "value": "紅樓夢"
+        },
+        {
+            "label": "DOI",
+            "value": "10.20730/200021515"
+        }
+    ],
+    "label": "紅樓夢",
+    "attribution": "国文学研究資料館",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/deed.ja",
+    "viewingDirection": "right-to-left",
+    "viewingHint": "individuals",
+    "sequences": [
+        {
+            "@id": "https://kokusho.nijl.ac.jp/biblio/200021515/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://kokusho.nijl.ac.jp/biblio/200021515/canvas/1",
+                    "@type": "sc:Canvas",
+                    "label": "1",
+                    "height": 3744,
+                    "width": 5616,
+                    "images": [
+                        {
+                            "@id": "https://kokusho.nijl.ac.jp/biblio/200021515/annotation/1",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://kokusho.nijl.ac.jp/api/iiif/200021515/v4/NIKI/089-0597/089-0597-00001.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616,
+                                "dc:identifier": "089-0597",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kokusho.nijl.ac.jp/api/iiif/200021515/v4/NIKI/089-0597/089-0597-00001.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            },
+                            "on": "https://kokusho.nijl.ac.jp/biblio/200021515/canvas/1"
+                        }
+                    ],
+                    "rendering": [
+                        {
+                            "id": "https://kokusho.nijl.ac.jp/api/iiif/200021515/v4/NIKI/089-0597/089-0597-00001.tif/full/full/0/default.jpg",
+                            "label": "Original (5616 x 3744px)",
+                            "format": "image/jpeg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
