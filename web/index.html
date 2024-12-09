@@ -14,86 +14,21 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            overflow: hidden;
         }
         .header {
             background-color: #f8f9fa;
             padding: 20px;
             text-align: center;
             border-bottom: 1px solid #ddd;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
         }
-        .container {
-            display: flex;
-            position: fixed;
+        #viewer {
+            position: absolute;
             top: 80px;
             bottom: 0;
             left: 0;
             right: 0;
-        }
-        #viewer {
-            flex: 1;
-            min-width: 200px;
-        }
-        .resizer {
-            width: 8px;
-            background-color: #f0f0f0;
-            cursor: col-resize;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-left: 1px solid #ddd;
-            border-right: 1px solid #ddd;
-        }
-        .resizer::after {
-            content: "⋮";
-            color: #999;
-            font-size: 20px;
-            line-height: 1;
-        }
-        .resizer:hover {
-            background-color: #e0e0e0;
-        }
-        #search-panel {
-            width: 300px;
-            min-width: 200px;
-            max-width: 600px;
-            background-color: #f8f9fa;
-            display: flex;
-            flex-direction: column;
-        }
-        .search-header {
-            padding: 15px;
-            background-color: #e9ecef;
-            border-bottom: 2px solid #dee2e6;
-        }
-        .search-box {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-            font-size: 14px;
-            box-sizing: border-box;
-        }
-        .search-results {
-            list-style: none;
-            padding: 0;
             margin: 0;
-            overflow-y: auto;
-            flex: 1;
-        }
-        .search-result-item {
-            padding: 12px 15px;
-            border-bottom: 1px solid #dee2e6;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-        .search-result-item:hover {
-            background-color: #e9ecef;
+            padding: 0;
         }
     </style>
 </head>
@@ -101,22 +36,9 @@
     <div class="header">
         <h1>IIIF 注释示例 v1.7</h1>
     </div>
-    <div class="container">
-        <div id="viewer"></div>
-        <div class="resizer" id="resizer"></div>
-        <div id="search-panel">
-            <div class="search-header">
-                <input type="text" class="search-box" placeholder="搜索注释内容..." id="search-input">
-            </div>
-            <ul class="search-results" id="search-results"></ul>
-        </div>
-    </div>
+    <div id="viewer" style="width: 1000px; height: 900px;"></div>
 
     <script type="text/javascript">
-        // 存储所有注释的数据
-        let annotationsData = [];
-
-        // 初始化 Mirador 查看器
         var mirador = Mirador.viewer({
             id: "viewer",
             windows: [
@@ -162,100 +84,6 @@
                     }
                 }
             }
-        });
-
-        // 获取注释数据
-        async function fetchAnnotations() {
-            try {
-                const response = await fetch('https://oushiei120.github.io/iiif/annotation1.json');
-                const data = await response.json();
-                annotationsData = data.items;
-                console.log('Annotations loaded:', annotationsData);
-            } catch (error) {
-                console.error('Error loading annotations:', error);
-            }
-        }
-
-        // 搜索功能
-        function searchAnnotations(query) {
-            if (!query) {
-                return [];
-            }
-            return annotationsData.filter(annotation => 
-                annotation.body.value.toLowerCase().includes(query.toLowerCase())
-            );
-        }
-
-        // 显示搜索结果
-        function displaySearchResults(results) {
-            const resultsContainer = document.getElementById('search-results');
-            resultsContainer.innerHTML = '';
-            
-            results.forEach((result, index) => {
-                const li = document.createElement('li');
-                li.className = 'search-result-item';
-                // 截取前50个字符作为预览
-                const preview = result.body.value.length > 50 
-                    ? result.body.value.substring(0, 50) + '...' 
-                    : result.body.value;
-                li.textContent = preview;
-                
-                li.addEventListener('click', () => {
-                    // 触发 Mirador 的注释选择事件
-                    const windowId = Object.keys(mirador.store.getState().windows)[0];
-                    mirador.store.dispatch({
-                        type: 'SET_CANVAS',
-                        windowId: windowId,
-                        canvasId: result.target.source
-                    });
-                });
-                
-                resultsContainer.appendChild(li);
-            });
-        }
-
-        // 添加拖动调整大小的功能
-        function initializeResizer() {
-            const resizer = document.getElementById('resizer');
-            const searchPanel = document.getElementById('search-panel');
-            let isResizing = false;
-            let startX;
-            let startWidth;
-
-            resizer.addEventListener('mousedown', (e) => {
-                isResizing = true;
-                startX = e.pageX;
-                startWidth = parseInt(getComputedStyle(searchPanel).width, 10);
-                
-                document.documentElement.style.cursor = 'col-resize';
-            });
-
-            document.addEventListener('mousemove', (e) => {
-                if (!isResizing) return;
-                
-                const width = startWidth - (e.pageX - startX);
-                if (width >= 200 && width <= 600) {
-                    searchPanel.style.width = `${width}px`;
-                }
-            });
-
-            document.addEventListener('mouseup', () => {
-                isResizing = false;
-                document.documentElement.style.cursor = '';
-            });
-        }
-
-        // 初始化搜索功能
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchAnnotations();
-            initializeResizer();
-            
-            const searchInput = document.getElementById('search-input');
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value;
-                const results = searchAnnotations(query);
-                displaySearchResults(results);
-            });
         });
     </script>
 </body>
