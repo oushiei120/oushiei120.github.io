@@ -26,9 +26,40 @@
             top: 80px;
             bottom: 0;
             left: 0;
-            right: 0;
+            right: 300px;
             margin: 0;
             padding: 0;
+        }
+        #search-panel {
+            position: absolute;
+            top: 80px;
+            bottom: 0;
+            right: 0;
+            width: 300px;
+            background-color: #f8f9fa;
+            border-left: 1px solid #ddd;
+            padding: 15px;
+            overflow-y: auto;
+        }
+        .search-box {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .search-results {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .search-result-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .search-result-item:hover {
+            background-color: #e9ecef;
         }
     </style>
 </head>
@@ -36,9 +67,17 @@
     <div class="header">
         <h1>IIIF 注释示例 v1.7</h1>
     </div>
-    <div id="viewer" style="width: 800px; height: 600px;"></div>
+    <div id="viewer"></div>
+    <div id="search-panel">
+        <input type="text" class="search-box" placeholder="搜索注释内容..." id="search-input">
+        <ul class="search-results" id="search-results"></ul>
+    </div>
 
     <script type="text/javascript">
+        // 存储所有注释的数据
+        let annotationsData = [];
+
+        // 初始化 Mirador 查看器
         var mirador = Mirador.viewer({
             id: "viewer",
             windows: [
@@ -84,6 +123,68 @@
                     }
                 }
             }
+        });
+
+        // 获取注释数据
+        async function fetchAnnotations() {
+            try {
+                const response = await fetch('https://oushiei120.github.io/iiif/annotation1.json');
+                const data = await response.json();
+                annotationsData = data.items;
+                console.log('Annotations loaded:', annotationsData);
+            } catch (error) {
+                console.error('Error loading annotations:', error);
+            }
+        }
+
+        // 搜索功能
+        function searchAnnotations(query) {
+            if (!query) {
+                return [];
+            }
+            return annotationsData.filter(annotation => 
+                annotation.body.value.toLowerCase().includes(query.toLowerCase())
+            );
+        }
+
+        // 显示搜索结果
+        function displaySearchResults(results) {
+            const resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = '';
+            
+            results.forEach((result, index) => {
+                const li = document.createElement('li');
+                li.className = 'search-result-item';
+                // 截取前50个字符作为预览
+                const preview = result.body.value.length > 50 
+                    ? result.body.value.substring(0, 50) + '...' 
+                    : result.body.value;
+                li.textContent = preview;
+                
+                li.addEventListener('click', () => {
+                    // 触发 Mirador 的注释选择事件
+                    const windowId = Object.keys(mirador.store.getState().windows)[0];
+                    mirador.store.dispatch({
+                        type: 'SET_CANVAS',
+                        windowId: windowId,
+                        canvasId: result.target.source
+                    });
+                });
+                
+                resultsContainer.appendChild(li);
+            });
+        }
+
+        // 初始化搜索功能
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchAnnotations();
+            
+            const searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value;
+                const results = searchAnnotations(query);
+                displaySearchResults(results);
+            });
         });
     </script>
 </body>
