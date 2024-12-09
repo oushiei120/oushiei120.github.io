@@ -14,49 +14,83 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            overflow: hidden;
         }
         .header {
             background-color: #f8f9fa;
             padding: 20px;
             text-align: center;
             border-bottom: 1px solid #ddd;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
         }
-        #viewer {
-            position: absolute;
+        .container {
+            display: flex;
+            position: fixed;
             top: 80px;
             bottom: 0;
             left: 0;
-            right: 300px;
-            margin: 0;
-            padding: 0;
+            right: 0;
+        }
+        #viewer {
+            flex: 1;
+            min-width: 200px;
+        }
+        .resizer {
+            width: 8px;
+            background-color: #f0f0f0;
+            cursor: col-resize;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+        }
+        .resizer::after {
+            content: "⋮";
+            color: #999;
+            font-size: 20px;
+            line-height: 1;
+        }
+        .resizer:hover {
+            background-color: #e0e0e0;
         }
         #search-panel {
-            position: absolute;
-            top: 80px;
-            bottom: 0;
-            right: 0;
             width: 300px;
+            min-width: 200px;
+            max-width: 600px;
             background-color: #f8f9fa;
-            border-left: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+        }
+        .search-header {
             padding: 15px;
-            overflow-y: auto;
+            background-color: #e9ecef;
+            border-bottom: 2px solid #dee2e6;
         }
         .search-box {
             width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
+            padding: 10px;
+            border: 1px solid #ced4da;
             border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
         }
         .search-results {
             list-style: none;
             padding: 0;
             margin: 0;
+            overflow-y: auto;
+            flex: 1;
         }
         .search-result-item {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+            padding: 12px 15px;
+            border-bottom: 1px solid #dee2e6;
             cursor: pointer;
+            transition: background-color 0.2s;
         }
         .search-result-item:hover {
             background-color: #e9ecef;
@@ -67,10 +101,15 @@
     <div class="header">
         <h1>IIIF 注释示例 v1.7</h1>
     </div>
-    <div id="viewer"></div>
-    <div id="search-panel">
-        <input type="text" class="search-box" placeholder="搜索注释内容..." id="search-input">
-        <ul class="search-results" id="search-results"></ul>
+    <div class="container">
+        <div id="viewer"></div>
+        <div class="resizer" id="resizer"></div>
+        <div id="search-panel">
+            <div class="search-header">
+                <input type="text" class="search-box" placeholder="搜索注释内容..." id="search-input">
+            </div>
+            <ul class="search-results" id="search-results"></ul>
+        </div>
     </div>
 
     <script type="text/javascript">
@@ -175,9 +214,41 @@
             });
         }
 
+        // 添加拖动调整大小的功能
+        function initializeResizer() {
+            const resizer = document.getElementById('resizer');
+            const searchPanel = document.getElementById('search-panel');
+            let isResizing = false;
+            let startX;
+            let startWidth;
+
+            resizer.addEventListener('mousedown', (e) => {
+                isResizing = true;
+                startX = e.pageX;
+                startWidth = parseInt(getComputedStyle(searchPanel).width, 10);
+                
+                document.documentElement.style.cursor = 'col-resize';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isResizing) return;
+                
+                const width = startWidth - (e.pageX - startX);
+                if (width >= 200 && width <= 600) {
+                    searchPanel.style.width = `${width}px`;
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                isResizing = false;
+                document.documentElement.style.cursor = '';
+            });
+        }
+
         // 初始化搜索功能
         document.addEventListener('DOMContentLoaded', () => {
             fetchAnnotations();
+            initializeResizer();
             
             const searchInput = document.getElementById('search-input');
             searchInput.addEventListener('input', (e) => {
