@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oushiei120 的 GitHub Pages</title>
+    <title>oushiei 的 GitHub Pages</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,6 +20,30 @@
             font-style: italic;
         }
     </style>
+    <script>
+        // 当页面加载完成时执行
+        window.onload = function() {
+            // 显示欢迎信息
+            alert("欢迎访问我的学术成果网站！");
+            
+            // 更新日期显示
+            const today = new Date();
+            document.getElementById("date").innerHTML = 
+                "最后更新时间：" + today.getFullYear() + "年" + 
+                (today.getMonth() + 1) + "月" + today.getDate() + "日";
+            
+            // 为所有链接添加悬停效果
+            const links = document.getElementsByTagName("a");
+            for(let i = 0; i < links.length; i++) {
+                links[i].onmouseover = function() {
+                    this.style.color = "red";
+                }
+                links[i].onmouseout = function() {
+                    this.style.color = "";
+                }
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>欢迎访问王子睿（oushiei）的学术成果网站</h1>
@@ -31,19 +55,5 @@
     </ul>
     <p id="date"></p>
 
-    <!-- JavaScript 部分 -->
-    <script>
-        // 显示当前日期
-        const dateElement = document.getElementById('date');
-        const today = new Date();
-        const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-        dateElement.textContent = `今天是 ${today.toLocaleDateString('zh-CN', options)}。`;
-
-        // 添加一个交互功能：点击标题改变颜色
-        const title = document.querySelector('h1');
-        title.addEventListener('click', function() {
-            title.style.color = title.style.color === 'blue' ? '#333' : 'blue';
-        });
-    </script>
 </body>
 </html>
