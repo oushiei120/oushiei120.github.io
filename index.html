@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oushiei120 的 GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        #date {
+            color: #555;
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
     <h1>欢迎访问王子睿（oushiei）的学术成果网站</h1>
@@ -13,5 +29,21 @@
         <li><a href="两译本译词网络图对比.html" target="_blank">两译本译词网络图对比</a></li>
         <li><a href="两译本译词桑基图对比.html" target="_blank">两译本译词桑基图对比</a></li>
     </ul>
+    <p id="date"></p>
+
+    <!-- JavaScript 部分 -->
+    <script>
+        // 显示当前日期
+        const dateElement = document.getElementById('date');
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
+        dateElement.textContent = `今天是 ${today.toLocaleDateString('zh-CN', options)}。`;
+
+        // 添加一个交互功能：点击标题改变颜色
+        const title = document.querySelector('h1');
+        title.addEventListener('click', function() {
+            title.style.color = title.style.color === 'blue' ? '#333' : 'blue';
+        });
+    </script>
 </body>
 </html>
